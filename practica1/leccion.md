@@ -1,5 +1,9 @@
 # Lección 1 -  ¿Qué es SQL?
 
+## Enlace
+
+<https://github.com/scontreraslopez/sql-intro/blob/main/practica1/leccion.md>
+
 ## Introducción
 
 El lenguaje de consulta estructurado, o SQL, es el principal lenguaje de programación utilizado para administrar e interactuar con [bases de datos relacionales](https://cloud.google.com/learn/what-is-a-relational-database). SQL puede realizar varias operaciones, como crear, actualizar, leer y eliminar registros dentro de una base de datos (CRUD).
