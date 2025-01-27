@@ -4,7 +4,7 @@
 
 <https://github.com/scontreraslopez/sql-intro/blob/main/practica5/leccion.md>
 
-Let's dive deeper and talk about some of the popular SQL Databases and what makes them different from one another. Some of the most popular SQL Databases right now are:
+Vamos a profundizar y hablar sobre algunas de las bases de datos SQL más populares y qué las hace diferentes entre sí. Algunas de las bases de datos SQL más populares en este momento son:
 
 - [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
 - [MySQL](https://en.wikipedia.org/wiki/MySQL)
@@ -12,21 +12,21 @@ Let's dive deeper and talk about some of the popular SQL Databases and what make
 - [SQLite](https://en.wikipedia.org/wiki/SQLite)
 - [And many others](https://en.wikipedia.org/wiki/List_of_relational_database_management_systems)
 
-*Source: [db-engines.com](https://db-engines.com/en/ranking)*
+*Fuente: [db-engines.com](https://db-engines.com/en/ranking)*
 
-While all of these Databases use SQL, each database defines specific rules, practices, and strategies that separate them from their competitors.
+Aunque todas estas bases de datos utilizan SQL, cada una define reglas, prácticas y estrategias específicas que las diferencian de sus competidores.
 
 ## SQLite vs. PostgreSQL
 
-Personally, SQLite and PostgreSQL are my favorites from the list above. Postgres is a very powerful, open-source, production-ready SQL database. SQLite is a lightweight, embeddable, open-source database. I usually choose one of these technologies if I'm doing SQL work.
+Personalmente, SQLite y PostgreSQL son mis favoritos de la lista anterior. PostgreSQL es una base de datos SQL de código abierto, muy poderosa y lista para producción. SQLite es una base de datos ligera, embebible y de código abierto. Usualmente elijo una de estas tecnologías si estoy trabajando con SQL.
 
-SQLite is a serverless database management system (DBMS) that has the ability to run within applications, whereas PostgreSQL uses a Client-Server model and requires a server to be installed and listening on a network, similar to an HTTP server.
+SQLite es un sistema de gestión de bases de datos (DBMS) sin servidor que tiene la capacidad de ejecutarse dentro de aplicaciones, mientras que PostgreSQL utiliza un modelo Cliente-Servidor y requiere que un servidor esté instalado y escuchando en una red, similar a un servidor HTTP.
 
-See a full [comparison here](https://db-engines.com/en/system/PostgreSQL%3BSQLite).
+Ver una [comparativa completa aquí](https://db-engines.com/en/system/PostgreSQL%3BSQLite).
 
-## We Use SQLite in This Course
+## Utilizamos SQLite
 
-In this course, we will be working with SQLite, a lightweight and simple database. For most backend web servers, PostgreSQL is a more production-ready option, but SQLite is great for learning and for small systems.
+En este curso, trabajaremos con SQLite, una base de datos ligera y sencilla. Para la mayoría de los servidores web backend, PostgreSQL es una opción más lista para producción, pero SQLite es excelente para aprender y para sistemas pequeños.
 
 ## Assignment
 
