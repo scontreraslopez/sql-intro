@@ -14,7 +14,7 @@ Espacio para ver el vídeo what-is-sql.mp4
 
 ## CashPal
 
-¡En este curso, construiremos la base de datos para un clon ficticio de PayPal llamado CashPal ! ¡Almacenar información relacionada con el dinero, las transacciones y la identidad de las personas es muy importante! Por lo tanto, tendremos que asegurarnos de utilizar las convenciones adecuadas para crear una arquitectura de base de datos segura y confiable de la que nuestros usuarios puedan fiarse.
+¡En este curso, construiremos la base de datos para un clon ficticio de PayPal llamado CashPal ! ¡Almacenar información relacionada con el dinero, las transacciones y la identidad de las personas es muy importante! Por lo tanto, tendremos que asegurarnos de utilizar las convenciones adecuadas para crear una arquitectura de base de datos segura y confiable que aporte tranquilidad a nuestros usuarios.
 
 ## Tarea
 
@@ -24,6 +24,6 @@ Ejecuta el script tester.sh para crear la base de datos. A continuación, abre l
 
 Para la entrega, crear un documento de texto llamado **practica1_sql_apellidos_nombre** con la query corregida y una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
-## Creditos
+## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev
