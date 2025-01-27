@@ -20,7 +20,7 @@ Espacio para ver el vídeo what-is-sql.mp4
 
 He proporcionado una instrucción SQL simple para usted que recupera algunos registros de una tabla. Sin embargo, no hay una tabla *people*, la tabla en nuestra base de datos se llama *users*. Corrija el error (**broken_query.sql**) cambiando *people* por *users* dentro de la declaración del SELECT.
 
-Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, corrije la query que aparece en broken_query.sql y comprueba que se recuperan correctamente los registros.
+Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, corrige la query que aparece en broken_query.sql y comprueba que se recuperan correctamente los registros.
 
 Para la entrega, crear un documento de texto llamado **practica1_sql_apellidos_nombre** con la query corregida y una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 

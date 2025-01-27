@@ -30,7 +30,7 @@ Una forma en que SQLite es un poco diferente es que almacena valores booleanos c
 - 0 = falso
 - 1 = verdadero
 
-Crea una query que seleccione todos los ids, nombres y flags is_admin de la tabla de usuarios.
+**Crea una query que seleccione todos los ids, nombres y flags is_admin de la tabla de usuarios.**
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, completa la query solicitada y comprueba que se recuperan correctamente los registros.
 

@@ -56,7 +56,7 @@ El estado de nuestra tabla de usuarios de CashPal es el siguiente:
 
 Es muy común escribir consultas que solo devuelven porciones específicas de datos de una tabla. Nuestro equipo de RRHH ha solicitado un informe pidiendo todos los nombres y saldos de todos nuestros usuarios.
 
-Escribe una consulta que recupere todos los nombres y saldos de la tabla de usuarios.
+**Escribe una consulta que recupere todos los nombres y saldos de la tabla de usuarios.**
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, completa la query solicitada y comprueba que se recuperan correctamente los registros.
 
