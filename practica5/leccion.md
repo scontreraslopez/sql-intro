@@ -30,14 +30,14 @@ En este curso, trabajaremos con SQLite, una base de datos ligera y sencilla. Par
 
 ## Assignment
 
-Let's take a look at how SQLite does _not_ enforce type-checking. Notice that within the `CREATE TABLE` statement, `name` is defined as a `TEXT` field.
+Echemos un vistazo a cómo SQLite *no* aplica la verificación de tipos. Observa que dentro de la declaración `CREATE TABLE`, `name` se define como un campo `TEXT`.
 
-1. Run the code and take a look at the results (don't submit yet!)
-2. On line `3`, change the text string `'Montgomery Burns'` to the integer `1` and run the code
+1. Ejecuta el código y observa los resultados (¡no lo envíes todavía!)
+2. En la línea `3`, cambia la cadena de texto `'Montgomery Burns'` al entero `1` y ejecuta el código
 
-Notice how even though we defined `name` as a `TEXT` field, SQLite allowed us to use an integer! Like Python and JavaScript, SQLite has a loose type system... You can store any type of data in any field, regardless of how you defined it. _Remember: just because you can do something, doesn't mean you should!_
+¡Observa cómo, aunque definimos `name` como un campo `TEXT`, SQLite nos permitió usar un entero! Al igual que Python y JavaScript, SQLite tiene un sistema de tipos flexible... Puedes almacenar cualquier tipo de dato en cualquier campo, independientemente de cómo lo hayas definido. *Recuerda: solo porque puedes hacer algo, no significa que debas hacerlo.*
 
-To pass the assignment, submit the code in the altered state, where the record with `id` `2` has a `name` of `1`.
+Para pasar la tarea, envía el código en el estado alterado, donde el registro con `id` `2` tiene un `name` de `1`.
 
 ```sql
 CREATE TABLE users (id INTEGER, name TEXT, age INTEGER);
