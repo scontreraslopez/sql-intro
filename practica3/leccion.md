@@ -1,4 +1,4 @@
-# Lección 2 -  ¿Qué bases de datos utilizan SQL?
+# Lección 3 -  ¿Qué bases de datos utilizan SQL?
 
 ## Enlace
 
