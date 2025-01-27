@@ -4,6 +4,8 @@
 
 <https://github.com/scontreraslopez/sql-intro/blob/main/practica2/leccion.md>
 
+## Introducción
+
 ¡Vamos a escribir nuestra propia declaración SQL desde cero! Una declaración SELECT es la operación más común en SQL, a menudo llamada "consulta". SELECT recupera datos de una o más tablas. Las declaraciones SELECT estándar no alteran el estado de la base de datos.
 
 ```sql
@@ -56,7 +58,7 @@ Es muy común escribir consultas que solo devuelven porciones específicas de da
 
 Escribe una consulta que recupere todos los nombres y saldos de la tabla de usuarios.
 
-Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, corrije la query que aparece en broken_query.sql y comprueba que se recuperan correctamente los registros.
+Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, completa la query solicitada y comprueba que se recuperan correctamente los registros.
 
 Para la entrega, crear un documento de texto llamado **practica2_sql_apellidos_nombre** con la query solicitada y una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
