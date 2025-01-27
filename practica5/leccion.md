@@ -28,7 +28,7 @@ Ver una [comparativa completa aquí](https://db-engines.com/en/system/PostgreSQL
 
 En este curso, trabajaremos con SQLite, una base de datos ligera y sencilla. Para la mayoría de los servidores web backend, PostgreSQL es una opción más lista para producción, pero SQLite es excelente para aprender y para sistemas pequeños.
 
-## Assignment
+## Tarea
 
 Echemos un vistazo a cómo SQLite *no* aplica la verificación de tipos. Observa que dentro de la declaración `CREATE TABLE`, `name` se define como un campo `TEXT`.
 
