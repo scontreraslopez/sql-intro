@@ -60,7 +60,8 @@ Es muy común escribir consultas que solo devuelven porciones específicas de da
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, completa la query solicitada y comprueba que se recuperan correctamente los registros.
 
-Para la entrega, crear un documento de texto llamado **practica2_sql_apellidos_nombre** con la query solicitada y una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+Para la entrega, sobre el documento de texto creado en la práctica anterior, generar un epígrae para este ejercicio. 
+Aquí, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ## Créditos
 
