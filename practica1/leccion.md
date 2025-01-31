@@ -18,7 +18,11 @@ Espacio para ver el vídeo what-is-sql.mp4
 
 ## Tarea
 
-He proporcionado una instrucción SQL simple para usted que recupera algunos registros de una tabla. Sin embargo, no hay una tabla *people*, la tabla en nuestra base de datos se llama *users*. Corrija el error (**broken_query.sql**) cambiando *people* por *users* dentro de la declaración del SELECT.
+He proporcionado una instrucción SQL simple para usted que recupera algunos registros de una tabla. Sin embargo, no hay una tabla *people*, la tabla en nuestra base de datos se llama *users*. Corrija el error de la siguiente sentencia cambiando *people* por *users* dentro de la declaración del SELECT.
+
+```sql
+SELECT * FROM people;
+```
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, corrige la query que aparece en broken_query.sql y comprueba que se recuperan correctamente los registros.
 
