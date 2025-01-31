@@ -37,7 +37,7 @@ Algunas de las bases de datos NoSQL más populares son:
 
 ## Tarea
 
-Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrae para este ejercicio. Aquí, responde a las siguientes preguntas tipo test con con la respuesta correcta.
+Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrae para este ejercicio. Aquí, responde a las siguientes preguntas (2) tipo test con con la respuesta correcta.
 
 - Cada base de datos NoSQL tiende a usar ____ lenguaje(s) de consulta:
 a) el mismo

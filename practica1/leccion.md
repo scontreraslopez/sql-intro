@@ -22,8 +22,10 @@ He proporcionado una instrucción SQL simple para usted que recupera algunos reg
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, corrige la query que aparece en broken_query.sql y comprueba que se recuperan correctamente los registros.
 
-La entrega de las 5 primeras prácticas de hará en un único documento de texto. Para ello crear el documento **practica_bbdd1_sql_apellidos_nombre**.
-Generaremos un título para cada una de las prácticas, donde pondremos la respuesta de cada ejercicio. 
+La entrega de las 5 primeras prácticas de hará en un único documento de texto. Para ello crear el documento **practica_bbdd1_sql_apellidos_nombre**..
+
+Generaremos un epígrafe para cada una de las prácticas, donde pondremos la respuesta de cada ejercicio. 
+
 Para este primer ejercicio, corrige la query y toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ## Créditos
