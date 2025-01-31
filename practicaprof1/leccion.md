@@ -1,14 +1,21 @@
-# Lección Profundización 2 -  Prevención del fraude
+# Lección Profundización 1 -  Programa de descuentos
 
-# Prevención de Fraude
+CashPal ha decidido iniciar dos nuevos programas de descuentos dirigidos a ciertos clientes. Los descuentos son los siguientes:
 
-Los usuarios han informado al equipo de soporte de CashPal que han sido contactados por algunos usuarios sospechosos que afirman trabajar para CashPal. Te han pedido que escribas una consulta para encontrar a personas que se hacen pasar por empleados de CashPal. Estos usuarios sospechosos han estado usando las palabras `cashpal` y `support` en sus nombres de usuario para hacerse pasar por empleados reales. Afortunadamente, cada empleado de CashPal tiene el campo `is_admin` establecido en true, por lo que podemos determinar si un usuario es un empleado.
+1. Todos los usuarios mayores de 55 años calificarán para un descuento para personas mayores.
+2. En celebración del Día de Canadá - todos los usuarios canadienses (`country_code` "CA") calificarán para un descuento.
+
+Queremos devolver todos los registros de la tabla `users`, pero queremos incluir una columna extra para saber si cada usuario califica para alguno de estos descuentos.
 
 ## Desafío
 
-Escribe una consulta que devuelva el `name` y el `username` de cada usuario que tenga las palabras `cashpal` o `support` en alguna parte de su nombre de usuario y **no** sea un administrador.
+Devuelve todos los datos de la tabla `users` y una columna temporal denominada `discount_eligible`.
 
-Aquí, generar un epígrafe para este ejercicio sobre el documento generado en la anterior práctica de profundización. Por último, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+La columna `discount_eligible` debe tener un valor booleano de `true` o `false` dependiendo de si el usuario cumple alguna de las condiciones de descuento mencionadas anteriormente.
+
+La entrega de las 2 prácticas de profundización se hará en un único documento de texto. Para ello crear el documento **practica_bbddprof1_sql_apellidos_nombre**.
+
+Aquí, generar un epígrafe para este ejercicio. Por último, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ## Créditos
 
