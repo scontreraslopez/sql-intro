@@ -26,23 +26,26 @@ Ver una [comparativa completa aquí](https://db-engines.com/en/system/PostgreSQL
 
 ## Utilizamos SQLite
 
-En este curso, trabajaremos con SQLite, una base de datos ligera y sencilla. Para la mayoría de los servidores web backend, PostgreSQL es una opción más lista para producción, pero SQLite es excelente para aprender y para sistemas pequeños.
+En esta unidad, trabajaremos con SQLite, una base de datos ligera y sencilla. Para la mayoría de los servidores web backend, PostgreSQL es una opción más lista para producción, pero SQLite es excelente para aprender y para sistemas pequeños.
 
 ## Tarea
 
 Echemos un vistazo a cómo SQLite *no* aplica la verificación de tipos. Observa que dentro de la declaración `CREATE TABLE`, `name` se define como un campo `TEXT`.
 
-1. Ejecuta el código y observa los resultados (¡no lo envíes todavía!)
-2. En la línea `3`, cambia la cadena de texto `'Montgomery Burns'` al entero `1` y ejecuta el código
+1. En DB Browser for SQLite, crea una nueva base de datos. 
+2. En la parte inferior de esta tarea encontraras un segmento de código SQL. Cópialo y pégalo en la pestaña de "Ejecutar SQL" de DB Browser for SQLite.
+3. Ejecuta el código y observa los resultados. La tabla `users` se creará y se insertarán dos registros. Tal y cómo esperamos ya que los valores coinciden con la definición id entero, name texto y age entero.
+4. Ahora, en la línea `4`, cambia la cadena de texto `'Montgomery Burns'` al entero `1` y ejecuta el código.
 
 ¡Observa cómo, aunque definimos `name` como un campo `TEXT`, SQLite nos permitió usar un entero! Al igual que Python y JavaScript, SQLite tiene un sistema de tipos flexible... Puedes almacenar cualquier tipo de dato en cualquier campo, independientemente de cómo lo hayas definido. *Recuerda: solo porque puedes hacer algo, no significa que debas hacerlo.*
 
-Para pasar la tarea, envía el código en el estado alterado, donde el registro con `id` `2` tiene un `name` de `1`.
+Para pasar la tarea, toma una captura de pantalla de la query modificada y el resultado de su ejecución, donde el registro con `id` `2` tiene un `name` de `1`.
 
 ```sql
+DROP TABLE IF EXISTS users;
 CREATE TABLE users (id INTEGER, name TEXT, age INTEGER);
 INSERT into users (id, name, age) values (1, 'John Doe', 21);
-INSERT into users (id, name, age) values (2, 1, 33);
+INSERT into users (id, name, age) values (2, 'Montgomery Burns', 33);
 SELECT * FROM users;
 ```
 
