@@ -39,7 +39,9 @@ Echemos un vistazo a cómo SQLite *no* aplica la verificación de tipos. Observa
 
 ¡Observa cómo, aunque definimos `name` como un campo `TEXT`, SQLite nos permitió usar un entero! Al igual que Python y JavaScript, SQLite tiene un sistema de tipos flexible... Puedes almacenar cualquier tipo de dato en cualquier campo, independientemente de cómo lo hayas definido. *Recuerda: solo porque puedes hacer algo, no significa que debas hacerlo.*
 
-Para pasar la tarea, toma una captura de pantalla de la query modificada y el resultado de su ejecución, donde el registro con `id` `2` tiene un `name` de `1`.
+Toma una captura de pantalla de la query modificada y el resultado de su ejecución, donde el registro con `id` `2` tiene un `name` de `1`.
+
+Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrae para este ejercicio. Aquí, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ```sql
 DROP TABLE IF EXISTS users;
@@ -48,6 +50,8 @@ INSERT into users (id, name, age) values (1, 'John Doe', 21);
 INSERT into users (id, name, age) values (2, 'Montgomery Burns', 33);
 SELECT * FROM users;
 ```
+
+¡Finalmente: Ya puedes entregar el documento de texto con las prácticas 1-5 completadas por aules! Felicidades por llegar hasta aquí.
 
 ## Créditos
 

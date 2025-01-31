@@ -34,7 +34,7 @@ Una forma en que SQLite es un poco diferente es que almacena valores booleanos c
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, completa la query solicitada y comprueba que se recuperan correctamente los registros.
 
-Para la entrega, crear un documento de texto llamado **practica3_sql_apellidos_nombre** con la query solicitada y una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrae para este ejercicio. Aquí, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ## Créditos
 
