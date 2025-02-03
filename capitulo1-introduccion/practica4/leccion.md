@@ -52,7 +52,7 @@ b) diferente
 a) SQL, NoSQL
 b) NoSQL, SQL
 
-¿Qué tipo de base de datos siempre usa estructuras de tablas?
+- ¿Qué tipo de base de datos siempre usa estructuras de tablas?
 a) SQL
 b) NoSQL
 c) Ambas
