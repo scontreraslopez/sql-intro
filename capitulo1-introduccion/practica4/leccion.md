@@ -45,17 +45,17 @@ Algunas de las bases de datos NoSQL más populares son:
 Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrae para este ejercicio. Aquí, responde a las siguientes preguntas (2) tipo test con con la respuesta correcta.
 
 - Cada base de datos NoSQL tiende a usar ____ lenguaje(s) de consulta:
-a) el mismo
-b) diferente
+  - a) el mismo
+  - b) diferente
 
 - Las bases de datos ____ compatibles tienden a ser más similares en su funcionalidad que las bases de datos ____.
-a) SQL, NoSQL
-b) NoSQL, SQL
+  - a) SQL, NoSQL
+  - b) NoSQL, SQL
 
 - ¿Qué tipo de base de datos siempre usa estructuras de tablas?
-a) SQL
-b) NoSQL
-c) Ambas
+  - a) SQL
+  - b) NoSQL
+  - c) Ambas
 
 ## Créditos
 
