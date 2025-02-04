@@ -26,7 +26,7 @@ SELECT * FROM people;
 
 Ejecuta el script tester.sh para crear la base de datos. A continuación, abre la base de datos test.db con sqlitebrowser, corrige la query que aparece arriba y comprueba que se recuperan correctamente los registros.
 
-**Nota**: También es posible abrir el archivo sql broken_query.sql en sqlitebrowser y corregir la query desde allí. Para ello utilizar el botón abrir archivo sql
+**Nota**: También es posible abrir el archivo sql broken_query.sql en sqlitebrowser y corregir la query desde allí. Para ello utilizar el botón de abrir archivo sql
 ![alt text](/assets/images/abrir_archivo_sql.png)
 
 La entrega de las 5 primeras prácticas de hará en un único documento de texto. Para ello crear el documento **practica_bbdd1_sql_apellidos_nombre**..

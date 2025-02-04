@@ -22,7 +22,9 @@ CREATE TABLE employees(
 
 ## Tarea
 
-¡Comencemos a construir una tabla para la base de datos *CashPal*! Crea la tabla `people` con los siguientes campos:
+En este caso no hay script tester.sh para inicializar la base de datos, en lugar de ello la crearás tu mismo en DB Browser for SQLite utilizando el botón de "Nueva base de datos". A continuación deberás construir la sentencia que permita construir una tabla para la base de datos de *CashPal*
+
+Crea la tabla `people` con los siguientes campos:
 
 1. id - `INTEGER`
 2. tag - `TEXT`
@@ -31,19 +33,14 @@ CREATE TABLE employees(
 5. balance - `INTEGER`
 6. is_admin - `BOOLEAN`
 
-En este caso no hay script tester.sh para crear la base de datos. Lo que deberás hacer es abrir A continuación, abre la base de datos test.db con sqlitebrowser, corrige la query que aparece en broken_query.sql y comprueba que se recuperan correctamente los registros.
+Por otro lado, crearás un nuevo documento de texto, **practica_bbdd2_sql_apellidos_nombre** para entregar la memoria de este nuevo conjunto de prácticas. Cómo hicimos la última vez, generarás un epígrafe nuevo para cada práctica.
 
-La entrega de las 5 primeras prácticas de hará en un único documento de texto. Para ello crear el documento **practica_bbdd1_sql_apellidos_nombre**..
-
-Generaremos un epígrafe para cada una de las prácticas, donde pondremos la respuesta de cada ejercicio.
-
-Para este primer ejercicio, corrige la query y toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
-
+Construye y ejecuta la query que nos permita crear esta nueva tabla, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ## Consejo
 
-- El comando `PRAGMA TABLE_INFO(TABLENAME);` devuelve información sobre una tabla y sus campos. No necesitas editar esta línea, ¡pero podría interesarte!
-- `INTEGER` e `INT` son tipos de datos ligeramente [diferentes](https://www.sqlite.org/lang_createtable.html#rowid). Las pruebas esperan `INTEGER`, no `INT`.
+- El comando `PRAGMA TABLE_INFO(TABLENAME);` devuelve información sobre una tabla y sus campos. No necesitas editar esta línea, ¡pero podría interesarte incluirla al final!
+- `INTEGER` e `INT` son tipos de datos ligeramente [diferentes](https://www.sqlite.org/lang_createtable.html#rowid). En este ejercicio se espera que utilices `INTEGER`, no `INT`.
 
 ## Créditos
 
