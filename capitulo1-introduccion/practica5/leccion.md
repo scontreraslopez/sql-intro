@@ -32,8 +32,8 @@ En esta unidad, trabajaremos con SQLite, una base de datos ligera y sencilla. Pa
 
 Echemos un vistazo a cómo SQLite *no* aplica la verificación de tipos. Observa que dentro de la declaración `CREATE TABLE`, `name` se define como un campo `TEXT`.
 
-1. En DB Browser for SQLite, crea una nueva base de datos. 
-2. En la parte inferior de esta tarea encontraras un segmento de código SQL. Cópialo y pégalo en la pestaña de "Ejecutar SQL" de DB Browser for SQLite.
+1. En DB Browser for SQLite, crea una nueva base de datos.
+2. En la parte inferior de esta tarea encontraras un segmento de código SQL. Cópialo y pégalo en la pestaña de "Ejecutar SQL" de DB Browser for SQLite. También puedes abrir el archivo "original_query.sql" en DB Browser for SQLite para poder hacerlo más cómodamente desde la VM. Puedes repasar [Lección 1](../practica1/leccion.md) para ver cómo abrir un archivo SQL en DB Browser for SQLite.
 3. Ejecuta el código y observa los resultados. La tabla `users` se creará y se insertarán dos registros. Tal y cómo esperamos ya que los valores coinciden con la definición id entero, name texto y age entero.
 4. Ahora, en la línea `4`, cambia la cadena de texto `'Montgomery Burns'` al entero `1` y ejecuta el código.
 
@@ -41,7 +41,7 @@ Echemos un vistazo a cómo SQLite *no* aplica la verificación de tipos. Observa
 
 Toma una captura de pantalla de la query modificada y el resultado de su ejecución, donde el registro con `id` `2` tiene un `name` de `1`.
 
-Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrae para este ejercicio. Aquí, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+Para la entrega, sobre el documento de texto creado en la práctica1, generar un epígrafe para este ejercicio. Aquí, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
 ```sql
 DROP TABLE IF EXISTS users;
