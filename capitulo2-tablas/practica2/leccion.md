@@ -7,7 +7,7 @@ En la mayoría de las bases de datos relacionales, ¡una sola tabla no es sufici
 - `comments`
 - `likes`
 
-## Asignación
+## Tarea
 
 Necesitamos una tabla que rastree las transacciones entre nuestros usuarios de *CashPal*.
 

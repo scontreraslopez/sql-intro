@@ -30,7 +30,7 @@ DROP COLUMN is_manager;
 
 ---
 
-## Asignación
+## Tarea
 
 ¡Necesitamos hacer algunos cambios en la tabla `people`! Por el momento, tenemos estas seis columnas (mostradas como filas para poder visualizar los tipos de datos):
 
@@ -48,6 +48,12 @@ Necesitamos realizar los siguientes cambios:
 1. Renombrar la tabla a `users`.
 2. Renombrar la columna `tag` a `username`.
 3. Agregar la columna `password` (de tipo `TEXT`).
+
+Una vez resuelto, sobre el documento de texto de este conjunto de prácticas, generarás un epígrafe nuevo para esta lección en la que incluirás su captura de pantalla. 
+
+Recuerda que puedes añadir `PRAGMA TABLE_INFO(TABLENAME);` al final de tu script para obtener información sobre la tabla.
+
+Con esto puedes mostrar tanto el script dde modificación de la tabla como su resultado para tomar la captura de pantalla.
 
 ## Créditos
 
