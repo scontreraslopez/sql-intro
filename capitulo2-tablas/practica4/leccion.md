@@ -12,11 +12,6 @@ Las **buenas** migrations son cambios pequeños, incrementales e idealmente **re
     </video>
 </p>
 
-<details open="">
-<summary>
-## Example of a Bad Migration
-</summary>
-
 Si el backend de CashPal ejecuta periódicamente una consulta como `SELECT * FROM people`, y ejecutamos una migration que cambia el nombre de la tabla de `people` a `users` **sin actualizar el código**, ¡la aplicación se romperá! Intentará obtener datos de una tabla que ya no existe.
 
 Una solución simple a este problema sería desplegar nuevo código que use una nueva consulta:
