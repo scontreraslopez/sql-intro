@@ -23,8 +23,6 @@ El vídeo puedes encontrarlo pegando esto en la barra de direcciones del explora
 
 smb://aquítuusuario@aulainfo2.local/share/PXSI_1BACH/DatabasesVideos/
 
-
-
 ## Tipos de bases de datos NoSQL
 
 - Document Database ([Document-oriented Database](https://en.wikipedia.org/wiki/Document-oriented_database))

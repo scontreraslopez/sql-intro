@@ -11,4 +11,4 @@
 
 ## Subtítulos de los videos
 
-- Generados con TurboScribe en formato .srt a partir del vídeo y traducidos posteriormente con Google Translate
+- Generados con TurboScribe en formato .srt a partir del vídeo y traducidos posteriormente con Google Translate o OpenAI Playground.
