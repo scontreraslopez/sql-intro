@@ -25,3 +25,29 @@ Es importante notar que SQLite no tiene una clase de almacenamiento separada par
 *¡No es tan raro en realidad, los valores booleanos son solo bits binarios después de todo!*
 
 SQLite aún te permitirá escribir tus consultas usando expresiones booleanas y las palabras clave `true`/`false`, pero convertirá los booleanos a enteros internamente.
+
+## Tarea
+
+Para la entrega, sobre el documento de texto asociado a este conjunto de prácticas genera un epígrafe para recoger la solución de este ejercicio. Aquí, responde a las siguientes preguntas tipo test. Solo una de las respuestas a cada pregunta es correcta:
+
+- ¿Cómo se almacena y presenta un valor booleano 'true' en SQLite?
+  - a) La cadena 'true'
+  - b) La cadena 'false'
+  - c) 1
+  - d) 0
+
+- ¿Todas las bases de datos SQL soportan los mismos tipos de datos?
+  - a) Sí
+  - b) No
+
+- ¿Qué tipo usarías para almacenar el correo electrónico de un usuario?
+  - a) TEXT
+  - b) REAL
+  - c) INTEGER
+  - d) BLOB
+
+¡Felicidades! Con esta lección has completado todas las prácticas necesarias para la segunda entrega a través de la plataforma Aules.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

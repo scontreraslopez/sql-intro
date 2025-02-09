@@ -13,3 +13,7 @@ Escribe una sentencia SQL para crear una nueva tabla llamada `posts` que debe co
 - is_sponsored
 
 Usa tipos de datos que tengan más sentido dado el nombre de la columna. Para las columnas de ID, asume que podemos usar `INTEGER`.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

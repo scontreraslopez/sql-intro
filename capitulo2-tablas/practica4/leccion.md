@@ -28,7 +28,7 @@ Y desplegaríamos ese código a producción inmediatamente después de la migrat
 
 ## Tarea
 
-Para la entrega, sobre el documento de texto creado en la práctica1 de este capítulo, generar un epígrafe para recoger la solución de este ejercicio. Aquí, responde a las siguientes preguntas tipo test. Solo una de las respuestas es la correcta.
+Para la entrega, sobre el documento de texto asociado a este conjunto de prácticas genera un epígrafe para recoger la solución de este ejercicio. Aquí, responde a las siguientes preguntas tipo test. Solo una de las respuestas a cada pregunta es correcta:
 
 - ¿Cuál de las siguientes afirmaciones sobre las migrations es FALSA?
   - a) Puedes ser rápido y descuidado al escribir migrations - una mala migration es fácil de arreglar
@@ -47,4 +47,3 @@ Para la entrega, sobre el documento de texto creado en la práctica1 de este cap
 ## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev
-

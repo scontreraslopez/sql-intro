@@ -2,7 +2,10 @@
 
 Cuando escribimos migraciones *reversibles*, usamos los términos "up" y "down" migrations. Una "up" migration es simplemente el conjunto de cambios que quieres hacer, como alterar/eliminar/agregar/editar una tabla de alguna manera. Una "down" migration incluye los cambios que revertirían cualquiera de los cambios de la "up" migration.
 
-## Asignación
+## Tarea
+
+> [!IMPORTANT]  
+> Recuerda ejecutar tester.sh en esta práctica para inicializar la base de datos.
 
 Agrega columnas adicionales a la tabla `transactions`. Queremos saber si la transacción se completó exitosamente entre dos usuarios. También queremos que nuestra base de datos rastree el *tipo* de transacción.
 

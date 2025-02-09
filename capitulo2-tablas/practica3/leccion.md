@@ -32,6 +32,9 @@ DROP COLUMN is_manager;
 
 ## Tarea
 
+> [!IMPORTANT]  
+> Recuerda ejecutar tester.sh en esta práctica para inicializar la base de datos.
+
 ¡Necesitamos hacer algunos cambios en la tabla `people`! Por el momento, tenemos estas seis columnas (mostradas como filas para poder visualizar los tipos de datos):
 
 | CID | NAME      | TYPE    | NOTNULL | DFLT VALUE | PK |
@@ -53,7 +56,7 @@ Una vez resuelto, sobre el documento de texto de este conjunto de prácticas, ge
 
 Recuerda que puedes añadir `PRAGMA TABLE_INFO(TABLENAME);` al final de tu script para obtener información sobre la tabla.
 
-Con esto puedes mostrar tanto el script dde modificación de la tabla como su resultado para tomar la captura de pantalla.
+Con esto puedes mostrar tanto el script de modificación de la tabla como su resultado para tomar la captura de pantalla.
 
 ## Créditos
 
