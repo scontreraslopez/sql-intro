@@ -22,3 +22,7 @@ Completa la siguiente migración `up`:
 - Agrega la columna `TEXT` `transaction_type` a la tabla `transactions`.
 
 *Nota: `BOOL` es válido, pero la asignación espera `BOOLEAN`, así que usa `BOOLEAN` en lugar de `BOOL` para pasar esta asignación.*
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
