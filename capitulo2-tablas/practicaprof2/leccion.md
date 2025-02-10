@@ -1,6 +1,6 @@
 # Migration of the Posts Table
 
-CashPal chatter is a great success! After several weeks of use, the engineers at CashPal have decided that some changes need to be made to our `posts` table. They have asked you to write an up migration to alter the table.
+¡CashPal Chatter es un gran éxito! Después de varias semanas de uso, los ingenieros de CashPal han decidido que se necesitan hacer algunos cambios en nuestra tabla `posts`. Te han pedido que escribas una migración ascendente para alterar la tabla.
 
 ## Desafío
 
