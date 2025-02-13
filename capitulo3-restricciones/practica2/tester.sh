@@ -21,11 +21,4 @@ sqlite3 "$dbPath" "$sqlScript"
 
 echo "Database created successfully at $dbPath"
 
-# Read the main SQL script
-mainSqlScript=$(<"$mainSqlScriptPath")
-
-# Execute the main SQL script with headers and capture the output
-output=$(sqlite3 "$dbPath" -header "$mainSqlScript")
-
-# Print the output of the query
-echo "$output"
+# No need for main.sql
