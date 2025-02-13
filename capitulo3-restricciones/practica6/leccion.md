@@ -1,84 +1,64 @@
-<div class="viewer p-4"><h1>Relational vs. Non-Relational Databases</h1>
-<p>The big difference between relational and non-relational databases is that non-relational databases <em>nest</em> their data. Instead of keeping records on separate tables, they store records <em>within other records</em>.</p>
-<p>To over-simplify it, you can think of non-relational databases as giant JSON blobs. If a user can have multiple courses, you might just add all the courses to the user record.</p>
+# Bases de Datos Relacionales vs. No Relacionales
 
-<div style="position: relative">
-	<pre class="language-json" tabindex="0"><code class="language-json">{
-    "users": [
+La gran diferencia entre las bases de datos relacionales y no relacionales es que las bases de datos no relacionales **anidan** sus datos. En lugar de mantener registros en tablas separadas, almacenan registros **dentro de otros registros**.
+
+Para simplificarlo, puedes pensar en las bases de datos no relacionales como grandes blobs JSON. Si un usuario puede tener múltiples cursos, simplemente podrías añadir todos los cursos al registro del usuario.
+
+```json
+{
+    "usuarios": [
         {
             "id": 0,
-            "name": "Elon",
-            "courses": [
+            "nombre": "Elon",
+            "cursos": [
                 {
-                    "name": "Biology",
+                    "nombre": "Biología",
                     "id": 0
                 },
                 {
-                    "name": "Biology",
+                    "nombre": "Biología",
                     "id": 0
                 }
             ]
         }
     ]
 }
-</code></pre>
+```
 
-	<button class="markdown-it-code-copy absolute top-1 right-2 cursor-pointer outline-none z-10" data-clipboard-text="{
-    &quot;users&quot;: [
-        {
-            &quot;id&quot;: 0,
-            &quot;name&quot;: &quot;Elon&quot;,
-            &quot;courses&quot;: [
-                {
-                    &quot;name&quot;: &quot;Biology&quot;,
-                    &quot;id&quot;: 0
-                },
-                {
-                    &quot;name&quot;: &quot;Biology&quot;,
-                    &quot;id&quot;: 0
-                }
-            ]
-        }
-    ]
-}" title="Copy to clipboard" data-event-click="true">
-    <img src="/img/copy_icon.svg" alt="Copy icon" class="display-block w-6 h-6 m-1 focus:opacity-50">
-  </button>
-</div>
-<p>This often results in <em>duplicate data</em> within the database. That’s obviously less than ideal, but it does have some benefits that we’ll talk about later in the course.</p>
+Esto a menudo resulta en **datos duplicados** dentro de la base de datos. Eso obviamente es menos que ideal, pero tiene algunos beneficios de los que hablaremos más adelante en el curso.
+
 <details open="">
 <summary>
-<h2>Relational Database</h2>
+## Base de Datos Relacional
 </summary>
-<p><img src="https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/Ogx4ICa.jpg" alt="Relational Database"></p>
+![Base de Datos Relacional](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/Ogx4ICa.jpg)
 </details>
+
 <details open="">
 <summary>
-<h2>Non-Relational Database</h2>
+## Base de Datos No Relacional
 </summary>
-<p><img src="https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/36gbplf.jpeg" alt="relational vs non-relational"></p>
+![relacional vs no relacional](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/36gbplf.jpeg)
 </details>
-</div>
 
-Q: How many courses is Sam enrolled in?
-5
-4
-3
-1
+**Pregunta: ¿En cuántos cursos está inscrito Sam?**
+- 5
+- 4
+- 3
+- 1
 
-Q: How many students are in the ASP.NET MVC course?
-5
-4
-3
-1
+**Pregunta: ¿Cuántos estudiantes hay en el curso de ASP.NET MVC?**
+- 5
+- 4
+- 3
+- 1
 
+**Pregunta: Las bases de datos ____ a menudo duplican datos, mientras que las bases de datos ____ típicamente no lo hacen.**
+- Relacionales, no relacionales
+- No relacionales, relacionales
 
-Q: ____ databases often duplicate data, while ____ databases typically don't.
-- Relational, non-relational
-- Non-relational, relational
-
-
-Q: Non relational databases connect similar entities by using ____
-- Nested data
-- Keys
+**Pregunta: Las bases de datos no relacionales conectan entidades similares usando ____.**
+- Datos anidados
+- Claves
 - Flubber
-- Concurrency
+- Concurrencia
