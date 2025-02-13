@@ -1,10 +1,10 @@
 # Claves Primarias
 
-Una **clave** define y protege las relaciones entre tablas. Una [clave primaria](https://es.wikipedia.org/wiki/Clave_primaria) es una columna especial que identifica de manera única los registros dentro de una tabla. Cada tabla puede tener una, y solo una clave primaria.
+Una **clave** define y protege las relaciones entre tablas. Una [clave primaria](https://es.wikipedia.org/wiki/Clave_primaria) es una columna especial que identifica de manera única los registros dentro de una tabla. Cada tabla puede tener **una, y solo una clave primaria**.
 
 ## Tu Clave Primaria Casi Siempre Será la Columna “id”
 
-Es **muy** común tener una columna llamada `id` en cada tabla de una base de datos, y que ese `id` sea la clave primaria de esa tabla. Ninguna fila en esa tabla puede compartir un `id`.
+Es **muy** común tener una columna llamada `id` en cada tabla de una base de datos, y que ese `id` sea la clave primaria de esa tabla. Ninguna fila en esa tabla puede compartir un `id`. Esto es un poco como el valor del campo fila en Excel.
 
 Se puede especificar explícitamente una restricción de `PRIMARY KEY` en una columna para asegurar la unicidad, rechazando cualquier inserción donde se intente crear un ID duplicado.
 

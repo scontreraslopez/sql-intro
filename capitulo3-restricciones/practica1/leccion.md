@@ -4,7 +4,7 @@ En SQL, una celda con un valor `NULL` indica que el valor está *ausente*. Un va
 
 ## Restricciones
 
-Cuando creamos una tabla, podemos definir si un campo *puede* o *no puede* ser `NULL`, y eso es un tipo de `constraint`.
+Cuando creamos una tabla, podemos definir si un campo *puede* o *no puede* ser `NULL`, y eso es un tipo de `constraint` (o restricción en castellano).
 
 Cubriremos las restricciones con más detalle pronto, por ahora, enfoquémonos en los valores `NULL`.
 
@@ -14,9 +14,8 @@ No forzamos ninguna restricción (constraint) en nuestras tablas cuando las crea
 
 Escribe una consulta para `SELECT` todos los campos de todos los registros de la tabla `transacciones`.
 
-## Consejo
-
-Usa la sintaxis del comodín `*` para seleccionar *todos* los campos.
+> [!TIP]
+> Recuerda usar la sintaxis del comodín `*` para seleccionar *todos* los campos.
 
 ## Observa
 
