@@ -17,7 +17,7 @@ No forzamos ninguna restricción (constraint) en nuestras tablas cuando las crea
 
 Escribe una consulta para `SELECT` todos los campos de todos los registros de la tabla `transacciones`. Observa que tanto los campos `transaction_type` como `was_successful` tienen valores `NULL` en los 3 registros de la tabla (los nulos están representados por celdas en blanco en nuestro sistema). 
 
-Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
-
 > [!TIP]
 > Recuerda usar la sintaxis del comodín `*` para seleccionar *todos* los campos.
+
+Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
