@@ -22,9 +22,12 @@ CREATE TABLE empleados(
 
 En otros dialectos de SQL puedes `ADD CONSTRAINT` dentro de una declaración `ALTER TABLE`. SQLite **no** soporta esta característica, por lo que cuando creamos nuestras tablas necesitamos asegurarnos de especificar todas las restricciones que queremos. Aquí hay una [lista de características de SQL](https://www.sqlite.org/omitted.html) que SQLite no implementa por si tienes curiosidad.
 
-## Asignación
+## Tarea
 
 ¡Afortunadamente todas las tablas que hemos creado para **CashPal** hasta este punto han sido para propósitos de prueba! Ahora que tenemos una mejor comprensión de las restricciones, ¡reconstruyamos nuestra base de datos con las restricciones y tablas adecuadas!
+
+> [!TIP]
+> Puedes ejecutar tester.sh para crear una bbdd vacía o crearla tu mismo.
 
 Crea la tabla `usuarios` con los siguientes campos y restricciones:
 
@@ -36,10 +39,8 @@ Crea la tabla `usuarios` con los siguientes campos y restricciones:
 - `contraseña` - `TEXT`, `NOT NULL`
 - `es_admin` - `BOOLEAN`
 
-Esta no tiene tester...
+> [!TIP]
+> Recuerda que puedes ejecutar `PRAGMA TABLE_INFO('users');` para imprimir en la salida la definición de la tabla.
 
-
--- TEST SUITE, DON'T TOUCH BELOW THIS LINE --
-
-PRAGMA TABLE_INFO('users');
+Sobre un nuevo epígrafe, construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
 
