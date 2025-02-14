@@ -10,6 +10,8 @@ Se puede especificar explícitamente una restricción de `PRIMARY KEY` en una co
 
 ## Tarea
 
-Ejecuta el código que encontrarás en **original_query.sql**. Nota que hay un error: hay una violación de una restricción de `PRIMARY KEY` en la columna `id`. **Corrige los datos que se están insertando.**
+Ejecuta `bash tester.sh`. A continuación, sobre la base de datos recién creada, ejecuta el código que encontrarás en **original_query.sql**. Nota que hay un error: hay una violación de una restricción de `PRIMARY KEY` en la columna `id`. **Corrige los datos que se están insertando.**
 
 Cuando trabajes con IDs enteros, es una buena práctica incrementar el `id` en `1` para cada inserción sucesiva. Sigue esta convención al corregir el error.
+
+Sobre un nuevo epígrafe, construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
