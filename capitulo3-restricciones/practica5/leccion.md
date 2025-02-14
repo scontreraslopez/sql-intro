@@ -1,6 +1,6 @@
 # Esquema
 
-Hemos usado la palabra _esquema_ varias veces, hablemos sobre lo que significa esa palabra. El [esquema](https://www.ibm.com/think/topics/database-schema) de una base de datos describe cómo se organiza la información dentro de ella.
+Hemos usado la palabra _esquema_ (_schema_ en inglés) varias veces, hablemos sobre lo que significa esa palabra. El [schema](https://www.ibm.com/think/topics/database-schema) de una base de datos describe cómo se organiza la información dentro de ella.
 
 Los tipos de datos, nombres de tablas, nombres de campos, restricciones y las relaciones entre todas esas entidades son parte del _esquema_ de una base de datos.
 
@@ -17,7 +17,7 @@ Usemos _CashPal_ como ejemplo. Una decisión muy importante que debe tomarse es 
 
 Hay muchas maneras de abordar este problema. Para nuestro primer intento, probemos el _esquema más simple que cumpla con las necesidades de nuestro proyecto_.
 
-## Asignación
+## Tarea
 
 El equipo de arquitectura de CashPal ha decidido una única tabla de `transacciones`. La tabla de `transacciones` almacena transacciones individuales, y podemos hacer un seguimiento del "saldo actual" en cada registro de transacción. ¡Si queremos el saldo actual, solo tenemos que mirar la transacción más reciente!
 
