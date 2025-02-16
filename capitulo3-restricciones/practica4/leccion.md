@@ -4,7 +4,7 @@ Las claves foráneas (más frecuentemente llamadas FK, o foreign keys) son lo qu
 
 ## Crear una Clave Foránea en SQLite
 
-Crear una `FOREIGN KEY` en SQLite ocurre al crear la tabla. Después de definir los campos y restricciones de la tabla, añadimos una `CONSTRAINT` nombrada donde definimos la columna `FOREIGN KEY` y sus `REFERENCES`.
+La creación de una `FOREIGN KEY` en SQLite ocurre al crear la tabla. Después de definir los campos y restricciones de la tabla, añadimos una `CONSTRAINT` con un nombre donde definimos la columna `FOREIGN KEY` y sus `REFERENCES`.
 
 Aquí hay un ejemplo:
 

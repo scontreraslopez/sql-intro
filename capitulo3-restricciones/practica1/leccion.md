@@ -15,7 +15,7 @@ Cubriremos las restricciones con más detalle pronto, por ahora, enfoquémonos e
 
 Hasta ahora no hemos forzado ninguna restricción (constraint) en nuestras tablas cuando las hemos creamos. Ésto ha permitido que las entradas `NULL` lleguen a nuestra tabla. ¡Echemos un vistazo a nuestra tabla de `transacciones` para ver cómo se ven esos valores `NULL`.
 
-Escribe una consulta para `SELECT` todos los campos de todos los registros de la tabla `transacciones`. Observa que tanto los campos `transaction_type` como `was_successful` tienen valores `NULL` en los 3 registros de la tabla (los nulos están representados por celdas en blanco en nuestro sistema). 
+Escribe una consulta para `SELECT` todos los campos de todos los registros de la tabla `transacciones`. Observa que tanto los campos `transaction_type` como `was_successful` tienen valores `NULL` en los 3 registros de la tabla (los nulos están representados por celdas en blanco en nuestro sistema).
 
 > [!TIP]
 > Recuerda usar la sintaxis del comodín `*` para seleccionar *todos* los campos.

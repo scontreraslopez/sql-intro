@@ -24,7 +24,7 @@ En otros dialectos de SQL puedes `ADD CONSTRAINT` dentro de una declaración `AL
 
 ## Tarea
 
-¡Afortunadamente todas las tablas que hemos creado para **CashPal** hasta este punto han sido para propósitos de prueba! Ahora que tenemos una mejor comprensión de las restricciones, ¡reconstruyamos nuestra base de datos con las restricciones y tablas adecuadas!
+¡Afortunadamente todas las tablas que hemos creado para **CashPal** hasta este punto han sido para propósitos de prueba y aprendizaje! Ahora que tenemos una mejor comprensión de las restricciones, ¡reconstruyamos nuestra base de datos con las restricciones y tablas adecuadas!
 
 > [!TIP]
 > Puedes ejecutar tester.sh para crear una bbdd vacía o crearla tu mismo.
@@ -42,5 +42,4 @@ Crea la tabla `usuarios` con los siguientes campos y restricciones:
 > [!TIP]
 > Recuerda que puedes ejecutar `PRAGMA TABLE_INFO('users');` para imprimir en la salida la definición de la tabla.
 
-Sobre un nuevo epígrafe, construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
-
+Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc. Pégala en un nuevo epígrafe de tu documento de texto de las prácticas.

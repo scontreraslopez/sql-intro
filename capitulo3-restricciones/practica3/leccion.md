@@ -4,14 +4,14 @@ Una **clave** define y protege las relaciones entre tablas. Una [clave primaria]
 
 ## Tu Clave Primaria Casi Siempre Será la Columna “id”
 
-Es **muy** común tener una columna llamada `id` en cada tabla de una base de datos, y que ese `id` sea la clave primaria de esa tabla. Ninguna fila en esa tabla puede compartir un `id`. Esto es un poco como el valor del campo fila en Excel.
+Es **muy** común tener una columna llamada `id` en cada tabla de una base de datos, y que ese `id` sea la clave primaria de esa tabla. Ninguna fila en esa tabla puede compartir un `id`. Esto es un poco como el valor del campo fila en Microsoft Excel.
 
 Se puede especificar explícitamente una restricción de `PRIMARY KEY` en una columna para asegurar la unicidad, rechazando cualquier inserción donde se intente crear un ID duplicado.
 
 ## Tarea
 
-Ejecuta `bash tester.sh`. A continuación, sobre la base de datos recién creada, ejecuta el código que encontrarás en **original_query.sql**. Nota que hay un error: hay una violación de una restricción de `PRIMARY KEY` en la columna `id`. **Corrige los datos que se están insertando.**
+Ejecuta `bash tester.sh`. A continuación, sobre la base de datos recién creada, ejecuta el código que encontrarás en **original_query.sql**. Descubriás que hay un error en este código ya que dispara una violación de la restricción de `PRIMARY KEY` en la columna `id`. **Corrige los datos que se están insertando.**
 
 Cuando trabajes con IDs enteros, es una buena práctica incrementar el `id` en `1` para cada inserción sucesiva. Sigue esta convención al corregir el error.
 
-Sobre un nuevo epígrafe, construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. Inclúyela en un nuevo epígrafe del documento de texto de las prácticas. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
