@@ -10,7 +10,6 @@ Para la entrega añade un epígrafe sobre el documento creado en la anterior pr�
 
 ¡Felicidades! Con esta práctica concluye este capítulo incluidas las tareas de profundización Ya puedes entregarlas por aules.
 
-
 ## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev

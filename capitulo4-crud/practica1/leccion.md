@@ -24,3 +24,7 @@ Ejecuta `bash tester.sh` para inicializar la DB.
 
 La entrega se realizará del mismo modo que las anteriores prácticas. En la primera práctica del capítulo se creará un nuevo documento sobre el que se añadirá un epígrafe para cada uno de las prácticas (ejercicios). Cuando secompleten todos los de un capítulo, el documento resultante podrá entregarse por la plataforma Aules en la tarea creada a dicho efecto. La captura de pantalla será el mecanismo por el cual el estudiante comunicará la solución alcanzada. Esta deberá contener toda la pantalla del pc, incluida la hora.
 
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
+
