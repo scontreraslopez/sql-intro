@@ -43,3 +43,7 @@ Crea la tabla `usuarios` con los siguientes campos y restricciones:
 > Recuerda que puedes ejecutar `PRAGMA TABLE_INFO('users');` para imprimir en la salida la definición de la tabla.
 
 Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc. Pégala en un nuevo epígrafe de tu documento de texto de las prácticas.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

@@ -41,3 +41,7 @@ El equipo de localización en CashPal ha creado una segunda tabla “countries�
 Echa un vistazo de nuevo al código de la query. ¡Hay un problema con las sentencias `INSERT` de nuevo! Arregla los datos para que no se violen las restricciones de clave foránea. Necesitarás referenciar la _configuración_ en la pestaña `original_query.sql` en el editor de código.
 
 Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. Pega esta captura de pantalla en un nuevo epígrafe del documento, asociado a esta práctica. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

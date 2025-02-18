@@ -21,3 +21,7 @@ Escribe una consulta para `SELECT` todos los campos de todos los registros de la
 > Recuerda usar la sintaxis del comodín `*` para seleccionar *todos* los campos.
 
 Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

@@ -62,3 +62,7 @@ Responde a las siguientes cuestiones tipo test a partir de la información mostr
 - Claves
 - Flubber
 - Concurrencia
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

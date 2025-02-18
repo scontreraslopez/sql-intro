@@ -15,3 +15,7 @@ Ejecuta `bash tester.sh`. A continuación, sobre la base de datos recién creada
 Cuando trabajes con IDs enteros, es una buena práctica incrementar el `id` en `1` para cada inserción sucesiva. Sigue esta convención al corregir el error.
 
 Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. Inclúyela en un nuevo epígrafe del documento de texto de las prácticas. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

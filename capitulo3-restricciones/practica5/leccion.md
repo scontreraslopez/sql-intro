@@ -35,3 +35,7 @@ Crea la tabla de `transacciones` con los siguientes campos y restricciones:
 > Recuerda que puedes ejecutar `PRAGMA TABLE_INFO('users');` para imprimir en la salida la definición de la tabla.
 
 Construye y ejecuta dicha query, a continuación, toma una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. Pega esta captura de pantalla en un nuevo epígrafe del documento, asociado a esta práctica. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
