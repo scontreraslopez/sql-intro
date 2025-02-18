@@ -1,19 +1,19 @@
-<div class="viewer p-4"><h1>HTTP CRUD Database Lifecycle</h1>
-<p>It’s important to understand how data <em>flows</em> through a typical web application.</p>
-<p><img src="https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/hli3crD.png" alt="database flow"></p>
-<ol>
-<li>The front-end processes some data from user input - maybe a form is submitted.</li>
-<li>The front-end sends that data to the server through an HTTP request - maybe a <code>POST</code>.</li>
-<li>The server makes a SQL query to its database to create an associated record - Probably using an <code>INSERT</code> statement.</li>
-<li>Once the server has processed that the database query was successful, it responds to the front-end with a status code! Hopefully a 200-level code (success)!</li>
-</ol>
-</div>
+# Ciclo de Vida de la Base de Datos HTTP CRUD
 
-Q: A front-end typically communicates with a database directly to add new records.
-- True
-- False
+Es importante entender cómo *fluye* la información a través de una aplicación web típica.
 
-Q: The 'Create' in CRUD maps to which SQL statement and HTTP Method?
+![flujo de base de datos](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/hli3crD.png)
+
+1. El front-end procesa algunos datos de la entrada del usuario - tal vez se envía un formulario.
+2. El front-end envía esos datos al servidor a través de una solicitud HTTP - tal vez un `POST`.
+3. El servidor realiza una consulta SQL a su base de datos para crear un registro asociado - Probablemente usando una declaración `INSERT`.
+4. Una vez que el servidor ha procesado que la consulta a la base de datos fue exitosa, responde al front-end con un código de estado. ¡Esperemos que sea un código de nivel 200 (éxito)!
+
+**P:** Un front-end típicamente se comunica directamente con una base de datos para agregar nuevos registros.
+- Verdadero
+- Falso
+
+**P:** El 'Crear' en CRUD se corresponde con qué declaración SQL y método HTTP?
 - Select, Put
 - Select, Get
 - Insert, Post

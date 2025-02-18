@@ -37,31 +37,29 @@ Responde a las siguientes cuestiones tipo test a partir de la información mostr
 
 ¡Felicidades! Con este ejercicio has terminado una nueva entrega de las prácticas de bases de datos. ¡Sigue así!
 
-**Pregunta: ¿En cuántos cursos está inscrito Sam?**
+## Preguntas
 
-- 5
-- 4
-- 3
-- 1
+- ¿En cuántos cursos está inscrito Sam?
+  - a) 5
+  - b) 4
+  - c) 3
+  - d) 1
 
-**Pregunta: ¿Cuántos estudiantes hay en el curso de ASP.NET MVC?**
+- ¿Cuántos estudiantes hay en el curso de ASP.NET MVC?
+  - a) 5
+  - b) 4
+  - c) 3
+  - d) 1
 
-- 5
-- 4
-- 3
-- 1
+- Las bases de datos ____ a menudo duplican datos, mientras que las bases de datos ____ típicamente no lo hacen.
+  - a) Relacionales, no relacionales
+  - b) No relacionales, relacionales
 
-**Pregunta: Las bases de datos ____ a menudo duplican datos, mientras que las bases de datos ____ típicamente no lo hacen.**
-
-- Relacionales, no relacionales
-- No relacionales, relacionales
-
-**Pregunta: Las bases de datos no relacionales conectan entidades similares usando ____.**
-
-- Datos anidados
-- Claves
-- Flubber
-- Concurrencia
+- Las bases de datos no relacionales conectan entidades similares usando ____.
+  - a) Datos anidados
+  - b) Claves
+  - c) Flubber
+  - d) Concurrencia
 
 ## Créditos
 

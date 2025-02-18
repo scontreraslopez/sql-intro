@@ -1,39 +1,31 @@
-<div class="viewer p-4"><h1>Auto Increment</h1>
-<p>Many dialects of SQL support an <code>AUTO INCREMENT</code> feature. When inserting records into a table with <code>AUTO INCREMENT</code> enabled, the database will assign the next value <em>automatically</em>. In SQLite an integer <code>id</code> field that has the <code>PRIMARY KEY</code> constraint will auto increment by default!</p>
-<details open="">
-<summary>
-<h2>Id’s</h2>
-</summary>
-<p>Depending on how your database is set up, you may be using traditional <code>id</code>s or you may be using <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier" target="_blank" rel="noopener nofollow">UUIDs</a>. SQL doesn’t support auto incrementing a <code>uuid</code> so if your database is using them your server will have to handle the changing uuid’s for each record.</p>
-</details>
-<details open="">
-<summary>
-<h2>Using <code>AUTO INCREMENT</code> in SQLite</h2>
-</summary>
-<p>We are using traditional <code>id</code>s in our database, so we can take advantage of the auto increment feature. Different dialects of SQL will implement this feature differently, but in SQLite any column that has the <code>INTEGER PRIMARY KEY</code> constraint will auto increment! So we can omit the <code>id</code> field within the <code>INSERT</code> statement and allow the database to automatically add that field for us!</p>
-</details>
-<details open="">
-<summary>
-<h2>Assignment</h2>
-</summary>
-<p>Let’s add some more records into our <code>users</code> table, but allow the database to automatically increment the <code>id</code> field. Add the following records to the database:</p>
-<h3>Record 1</h3>
-<ul>
-<li><code>name</code>: Lance</li>
-<li><code>age</code>: 20</li>
-<li><code>country_code</code>:  US</li>
-<li><code>username</code>: LanChr</li>
-<li><code>password</code>: bootdevisbest</li>
-<li><code>is_admin</code>: false</li>
-</ul>
-<h3>Record 2</h3>
-<ul>
-<li><code>name</code>: Tiffany</li>
-<li><code>age</code>: 28</li>
-<li><code>country_code</code>:  US</li>
-<li><code>username</code>: Tifferoon</li>
-<li><code>password</code>: autoincrement</li>
-<li><code>is_admin</code>: true</li>
-</ul>
-</details>
-</div>
+# Auto Incremento
+
+Muchos dialectos de SQL soportan una característica de `AUTO INCREMENT`. Al insertar registros en una tabla con `AUTO INCREMENT` habilitado, la base de datos asignará el siguiente valor *automáticamente*. En SQLite, un campo entero `id` que tiene la restricción `PRIMARY KEY` se incrementará automáticamente por defecto.
+
+## Id’s
+
+Dependiendo de cómo esté configurada tu base de datos, puedes estar usando `id`s tradicionales o puedes estar usando [UUIDs](https://es.wikipedia.org/wiki/Identificador_%C3%BAnico_universal). SQL no soporta el auto incremento de un `uuid`, por lo que si tu base de datos los está usando, tu servidor tendrá que manejar el cambio de uuid’s para cada registro.
+
+## Usando `AUTO INCREMENT` en SQLite
+
+Estamos usando `id`s tradicionales en nuestra base de datos, por lo que podemos aprovechar la característica de auto incremento. Diferentes dialectos de SQL implementarán esta característica de manera diferente, pero en SQLite cualquier columna que tenga la restricción `INTEGER PRIMARY KEY` se incrementará automáticamente. ¡Así que podemos omitir el campo `id` dentro de la declaración `INSERT` y permitir que la base de datos agregue ese campo automáticamente!
+
+## Tarea
+
+Agreguemos más registros a nuestra tabla `users`, pero permitamos que la base de datos incremente automáticamente el campo `id`. Agrega los siguientes registros a la base de datos:
+
+### Registro 1
+- `name`: Lance
+- `age`: 20
+- `country_code`: US
+- `username`: LanChr
+- `password`: bootdevisbest
+- `is_admin`: false
+
+### Registro 2
+- `name`: Tiffany
+- `age`: 28
+- `country_code`: US
+- `username`: Tifferoon
+- `password`: autoincrement
+- `is_admin`: true
