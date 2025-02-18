@@ -1,28 +1,26 @@
-<div class="viewer p-4"><h1>CRUD</h1>
-<p>CRUD is an acronym that stands for <code>CREATE</code>, <code>READ</code>, <code>UPDATE</code>, and <code>DELETE</code>. These four operations are the bread and butter of nearly every database you will create.</p>
-<details open="">
-<summary>
-<h2>HTTP and CRUD</h2>
-</summary>
-<p>The CRUD operations correlate nicely with the HTTP methods we learned in the <a href="https://www.boot.dev/courses/learn-http-clients-golang" target="_blank" rel="noopener nofollow">Learn HTTP Clients</a> course.</p>
-<ul>
-<li><code>HTTP POST</code> - <code>CREATE</code></li>
-<li><code>HTTP GET</code> - <code>READ</code></li>
-<li><code>HTTP PUT</code> - <code>UPDATE</code></li>
-<li><code>HTTP DELETE</code> - <code>DELETE</code></li>
-</ul>
-</details>
-<details open="">
-<summary>
-<h2>Assignment</h2>
-</summary>
-<p>We’ve created a table for you called <code>crud</code>, it’s a toy table we’re using for interview practice at CashPal.</p>
-<p>Determine which SQL command can be used for a <code>READ</code> operation and use it to <em>read</em> all the fields in all the records in the <code>crud</code> table!</p>
-</details>
-<details>
-<summary>
-<h2>Hint</h2>
-</summary>
-<p><em>Reading</em> data is just another way of saying <em>retrieving</em> data.</p>
-</details>
-</div>
+# CRUD
+
+CRUD es un acrónimo que significa `CREAR`, `LEER`, `ACTUALIZAR` y `BORRAR`, viene del inglés **C**REATE, **R**EAD, **U**PDATE, **D**ELETE. Estas cuatro operaciones son fundamentales en casi todas las bases de datos que crearás.
+
+## HTTP y CRUD
+
+Las operaciones CRUD se correlacionan bien con los métodos HTTP. 
+
+- `HTTP POST` - `CREAR`
+- `HTTP GET` - `LEER`
+- `HTTP PUT` - `ACTUALIZAR`
+- `HTTP DELETE` - `BORRAR`
+
+## Tarea
+
+Hemos creado una tabla para ti llamada `crud`, es una tabla de práctica que estamos usando para entrevistas en CashPal.
+
+¡Determina qué comando SQL se puede usar para una operación de `LEER` y úsalo para leer todos los campos en todos los registros de la tabla `crud`!
+
+Ejecuta `bash tester.sh` para inicializar la DB.
+
+> [!TIP]
+> Leer datos es solo otra forma de decir recuperar datos.
+
+La entrega se realizará del mismo modo que las anteriores prácticas. En la primera práctica del capítulo se creará un nuevo documento sobre el que se añadirá un epígrafe para cada uno de las prácticas (ejercicios). Cuando secompleten todos los de un capítulo, el documento resultante podrá entregarse por la plataforma Aules en la tarea creada a dicho efecto. La captura de pantalla será el mecanismo por el cual el estudiante comunicará la solución alcanzada. Esta deberá contener toda la pantalla del pc, incluida la hora.
+
