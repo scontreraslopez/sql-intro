@@ -8,11 +8,13 @@ Dependiendo de cómo esté configurada tu base de datos, puedes estar usando `id
 
 ## Usando `AUTO INCREMENT` en SQLite
 
-Estamos usando `id`s tradicionales en nuestra base de datos, por lo que podemos aprovechar la característica de auto incremento. Diferentes dialectos de SQL implementarán esta característica de manera diferente, pero en SQLite cualquier columna que tenga la restricción `INTEGER PRIMARY KEY` se incrementará automáticamente. ¡Así que podemos omitir el campo `id` dentro de la declaración `INSERT` y permitir que la base de datos agregue ese campo automáticamente!
+Estamos usando `id`s tradicionales en nuestra base de datos, por lo que podemos aprovechar la característica de auto incremento. Diferentes dialectos de SQL implementarán esta característica de manera diferente, pero en SQLite cualquier columna que tenga la restricción `INTEGER PRIMARY KEY` se incrementará automáticamente. ¡Así que podemos omitir el campo `id` dentro de la declaración `INSERT**P:** ` y permitir que la base de datos agregue ese campo automáticamente!
 
 ## Tarea
 
-Agreguemos más registros a nuestra tabla `users`, pero permitamos que la base de datos incremente automáticamente el campo `id`. Agrega los siguientes registros a la base de datos:
+Agreguemos más registros a nuestra tabla `users`, pero permitamos que la base de datos incremente automáticamente el campo `id`. 
+
+Primero ejecuta `bash tester.sh` para inicializar la base de datos. A continuación escribe las sentencias que nos permitan agregar los siguientes registros a la base de datos.
 
 ### Registro 1
 - `name`: Lance
@@ -29,3 +31,10 @@ Agreguemos más registros a nuestra tabla `users`, pero permitamos que la base d
 - `username`: Tifferoon
 - `password`: autoincrement
 - `is_admin`: true
+
+Por último toma una captura de pantalla y añadela a un nuevo epígrafe de tu documento de texto.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
+

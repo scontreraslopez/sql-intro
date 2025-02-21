@@ -1,31 +1,23 @@
-PRAGMA foreign_keys = ON;
-
-CREATE table countries(code TEXT PRIMARY KEY, name TEXT);
-
-CREATE TABLE users (
-    id INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
-    age INTEGER,
-    country_code TEXT NOT NULL,
-    username TEXT ,
-    password TEXT,
-    is_admin BOOLEAN,
-    FOREIGN KEY (country_code)
-    REFERENCES countries(code)
-);
-
-INSERT INTO countries (
-    code,
-    name
+INSERT INTO users (
+    id,
+    name,
+    country_code
 ) VALUES (
-    'US',
-    'United States of America'
+    1,
+    'Jerry',
+    'US'
 );
 
-INSERT INTO countries (
-    code,
-    name
+INSERT INTO users (
+    id,
+    name,
+    country_code
 ) VALUES (
-    'IN',
-    'India'
+    2,
+    'Amit',
+    'IND'
 );
+
+/* -- DON'T TOUCH BELOW THIS LINE -- */
+
+SELECT * FROM users;

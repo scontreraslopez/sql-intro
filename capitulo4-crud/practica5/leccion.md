@@ -15,14 +15,17 @@ VALUES ('%s', %v, '%s');
 
 El ejemplo anterior es una simplificación de lo que *realmente* sucede cuando se accede a una base de datos usando código Go. En esencia, es correcto. La interpolación de cadenas es cómo los sistemas de producción acceden a las bases de datos. Dicho esto, debe hacerse *cuidadosamente* para no crear una [vulnerabilidad de seguridad](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL).
 
-- **P:** Cada vez que alguien crea una cuenta en boot.dev, Allan o Lane tienen que añadirlos manualmente a la base de datos escribiendo una consulta SQL a mano
 
-  - Verdadero
-  - Falso
+## Tarea
 
-- **P:** Dentro de los sistemas backend, las consultas SQL son típicamente ____
+Para la entrega añade un epígrafe nuevo en tu documento de texto asociado a estas prácticas y responde las siguientes preguntas tipo test.
 
-  - Escritas a mano
-  - Generadas por código
+- Cada vez que alguien crea una cuenta en boot.dev, Allan o Lane tienen que añadirlos manualmente a la base de datos escribiendo una consulta SQL a mano:
+  - a) Verdadero
+  - b) Falso
+
+- Dentro de los sistemas backend, las consultas SQL son típicamente ____
+  - a) Escritas a mano
+  - b) Generadas por código
 
 
