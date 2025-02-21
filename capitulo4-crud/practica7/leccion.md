@@ -28,3 +28,7 @@ Responde a las siguientes preguntas tipo test:
   - a) Se ejecuta una declaración SELECT
   - b) Se envía una respuesta JSON
   - c) Se hace una solicitud GET
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
