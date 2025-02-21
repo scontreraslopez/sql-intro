@@ -32,7 +32,7 @@ Primero ejecuta `bash tester.sh` para inicializar la base de datos. A continuaci
 - `password`: autoincrement
 - `is_admin`: true
 
-Por último toma una captura de pantalla y añadela a un nuevo epígrafe de tu documento de texto.
+Por último toma una captura de pantalla con la solución y añadela a un nuevo epígrafe de tu documento de texto.
 
 ## Créditos
 

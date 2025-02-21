@@ -10,7 +10,7 @@ SELECT COUNT(*) FROM employees;
 
 El `*` en este caso se refiere al nombre de una columna. No nos importa el conteo de una **columna específica** - queremos saber el número de **registros totales** así que podemos usar el comodín (*).
 
-## Asignación
+## Tarea
 
 Aquí está el estado actual de nuestra tabla `users`:
 
@@ -29,4 +29,10 @@ Nuestro equipo de estrategia de negocios en CashPal quiere saber cuántos usuari
 
 Usa una declaración `COUNT(*)` para recuperar el número de registros en la tabla `users`.
 
-**Nota:** En este curso, usa `*` con `COUNT` a menos que las instrucciones digan específicamente contar una columna en particular.
+**Nota:** En estas prácticas, usa `*` con `COUNT` a menos que las instrucciones digan específicamente contar una columna en particular.
+
+Una vez resuelto, añade una captura de pantalla con la solución a tu documento de texto.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

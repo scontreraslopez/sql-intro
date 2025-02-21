@@ -18,7 +18,7 @@ El ejemplo anterior es una simplificación de lo que *realmente* sucede cuando s
 
 ## Tarea
 
-Para la entrega añade un epígrafe nuevo en tu documento de texto asociado a estas prácticas y responde las siguientes preguntas tipo test.
+Para la entrega añade un epígrafe nuevo en tu documento de texto y responde las siguientes preguntas tipo test.
 
 - Cada vez que alguien crea una cuenta en boot.dev, Allan o Lane tienen que añadirlos manualmente a la base de datos escribiendo una consulta SQL a mano:
   - a) Verdadero
@@ -27,5 +27,9 @@ Para la entrega añade un epígrafe nuevo en tu documento de texto asociado a es
 - Dentro de los sistemas backend, las consultas SQL son típicamente ____
   - a) Escritas a mano
   - b) Generadas por código
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
 
 
