@@ -14,15 +14,17 @@ Hablemos de un ejemplo usando la aplicación CashPal. Nuestro gerente de product
 
 El método HTTP que generalmente corresponde con una declaración SQL SELECT es un HTTP
 
-Q: El método HTTP que generalmente corresponde con una declaración SQL SELECT es un HTTP
+## Tarea
 
-- Actualizar
-- Poner
-- Parche
-- Obtener
+Responde a las siguientes preguntas tipo test: 
 
-Q: ¿Qué sucede primero?
+- El método HTTP que generalmente corresponde con una declaración SQL SELECT es un HTTP
+  - a) Actualizar
+  - b) Poner
+  - c) Parche
+  - d) Obtener
 
-- Se ejecuta una declaración SELECT
-- Se envía una respuesta JSON
-- Se hace una solicitud GET
+- ¿Qué sucede primero?
+  - a) Se ejecuta una declaración SELECT
+  - b) Se envía una respuesta JSON
+  - c) Se hace una solicitud GET
