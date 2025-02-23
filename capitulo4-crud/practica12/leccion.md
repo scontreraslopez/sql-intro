@@ -16,7 +16,7 @@ SET job_title = 'Backend Engineer', salary = 150000
 WHERE id = 251;
 ```
 
-## Asignación
+## Tarea
 
 ¡Necesitamos actualizar el registro de Lane en nuestra tabla de usuarios, él fundó CashPal pero ni siquiera es reconocido como administrador!
 
@@ -35,3 +35,11 @@ Aquí está el estado actual de la tabla `USERS` para referencia:
 | 7   | Lance    | 20  | US           | LanChr   | b00tdevisbest     | 0        |
 | 8   | Tiffany  | 28  | US           | Tifferoon| autoincrement     | 1        |
 | 9   | Lane     | 27  | US           | wagslane | update_me         | 0        |
+
+1. Ejecuta `bash tester.sh` para inicializar la DB.
+2. Escribe la consulta que permita actualizar el registro de Lane dentro de la tabla `users` para que el campo `is_admin` esté establecido en `true` ¡Añade una sentencia `SELECT * FROM users;` al final de tu script para verificar que el registro ha sido eliminado!
+3. Toma una captura de pantalla con tu solución y el resultado de su ejecución. Añádelo bajo un nuevo epígrafe en tu documento de texto.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
