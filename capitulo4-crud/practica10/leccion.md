@@ -13,11 +13,13 @@ WHERE id = 251;
 
 Este comando `DELETE` elimina todos los registros de la tabla `employees` que tienen un id de `251`.
 
-## Asignación
+## Tarea
 
 Samantha, una de nuestras usuarias de *CashPal*, ha optado por eliminar su cuenta y dejar de usar nuestra aplicación... lo cual nos entristece. De todas formas, ¡necesitamos eliminar su registro de la base de datos!
 
-Elimina el registro de Samantha de la tabla de usuarios.
+1. Ejecuta `bash tester.sh` para inicializar la DB.
+2. Escribe la consulta que permita eliminar el registro de Samantha de la tabla de usuarios. ¡Añade una sentencia `SELECT * FROM users`; al final de tu script para verificar que el registro ha sido eliminado!
+3. Toma una captura de pantalla con tu solución y el resultado de su ejecución. Añádelo bajo un nuevo epígrafe en tu documento de texto.
 
 ### Estado Actual de la Tabla `users`
 
@@ -32,3 +34,7 @@ Elimina el registro de Samantha de la tabla de usuarios.
 | 7  | Lance    | 20   | US          | LanChr         | b00tdevisbest    | 0        |
 | 8  | Tiffany  | 28   | US          | Tifferoon      | autoincrement    | 1        |
 | 9  | Lane     | 27   | US          | wagslane       | update_me        | 0        |
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
