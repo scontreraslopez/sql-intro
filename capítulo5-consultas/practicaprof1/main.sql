@@ -1,1 +1,0 @@
-GET name FROM users;
