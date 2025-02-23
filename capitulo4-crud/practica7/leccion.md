@@ -16,7 +16,7 @@ El método HTTP que generalmente corresponde con una declaración SQL SELECT es 
 
 ## Tarea
 
-Responde a las siguientes preguntas tipo test: 
+Responde a las siguientes preguntas tipo test:
 
 - El método HTTP que generalmente corresponde con una declaración SQL SELECT es un HTTP
   - a) Actualizar

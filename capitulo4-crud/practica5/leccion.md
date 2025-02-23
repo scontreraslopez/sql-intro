@@ -15,10 +15,9 @@ VALUES ('%s', %v, '%s');
 
 El ejemplo anterior es una simplificación de lo que *realmente* sucede cuando se accede a una base de datos usando código Go. En esencia, es correcto. La interpolación de cadenas es cómo los sistemas de producción acceden a las bases de datos. Dicho esto, debe hacerse *cuidadosamente* para no crear una [vulnerabilidad de seguridad](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL).
 
-
 ## Tarea
 
-Para la entrega añade un epígrafe nuevo en tu documento de texto y responde las siguientes preguntas tipo test.
+Para la entrega añade un nuevo epígrafe en tu documento de texto y responde las siguientes preguntas tipo test.
 
 - Cada vez que alguien crea una cuenta en boot.dev, Allan o Lane tienen que añadirlos manualmente a la base de datos escribiendo una consulta SQL a mano:
   - a) Verdadero
@@ -31,5 +30,3 @@ Para la entrega añade un epígrafe nuevo en tu documento de texto y responde la
 ## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev
-
-

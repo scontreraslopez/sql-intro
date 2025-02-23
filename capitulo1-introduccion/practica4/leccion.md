@@ -21,7 +21,7 @@ Mientras que la mayoría de las bases de datos relacionales son bastante similar
 Espacio para el video
 El vídeo puedes encontrarlo pegando esto en la barra de direcciones del explorador pc (que no de internet)
 
-smb://aquítuusuario@aulainfo2.local/share/PXSI_1BACH/DatabasesVideos/
+`smb://aquítuusuario@aulainfo2.local/share/PXSI_1BACH/DatabasesVideos/`
 
 ## Tipos de bases de datos NoSQL
 

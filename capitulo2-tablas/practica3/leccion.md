@@ -52,7 +52,7 @@ Necesitamos realizar los siguientes cambios:
 2. Renombrar la columna `tag` a `username`.
 3. Agregar la columna `password` (de tipo `TEXT`).
 
-Una vez resuelto, sobre el documento de texto de este conjunto de prácticas, generarás un epígrafe nuevo para esta lección en la que incluirás su captura de pantalla. 
+Una vez resuelto, sobre el documento de texto de este conjunto de prácticas, generarás un epígrafe nuevo para esta lección en la que incluirás su captura de pantalla.
 
 Recuerda que puedes añadir `PRAGMA TABLE_INFO(TABLENAME);` al final de tu script para obtener información sobre la tabla.
 

@@ -26,4 +26,3 @@ Para la entrega, crea un nuevo documento de texto y genera un generar un epígra
 ## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev
-

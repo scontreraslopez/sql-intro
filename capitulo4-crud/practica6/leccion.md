@@ -1,4 +1,4 @@
-# Contar
+# Count
 
 Podemos usar una declaración `SELECT` para obtener un **conteo** de los registros dentro de una tabla. Esto puede ser muy útil cuando necesitamos saber **cuántos** registros hay, pero no nos importa particularmente qué hay en ellos.
 
@@ -27,7 +27,7 @@ Aquí está el estado actual de nuestra tabla `users`:
 
 Nuestro equipo de estrategia de negocios en CashPal quiere saber cuántos usuarios de la aplicación tenemos. ¡No podemos usar el número de `id` para calcular el conteo porque las cuentas de usuario pueden ser eliminadas!
 
-Usa una declaración `COUNT(*)` para recuperar el número de registros en la tabla `users`.
+Ejecuta `bash tester.sh` para inicializar la base de datos. Luego construye una declaración `COUNT(*)` para recuperar el número de registros en la tabla `users`. Una vez resuelto, toma una captura de pantalla con el resultado y añádela a un nuevo epígrafe en tu documento de texto.
 
 **Nota:** En estas prácticas, usa `*` con `COUNT` a menos que las instrucciones digan específicamente contar una columna en particular.
 

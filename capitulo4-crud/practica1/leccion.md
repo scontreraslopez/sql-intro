@@ -4,7 +4,7 @@ CRUD es un acrónimo que significa `CREAR`, `LEER`, `ACTUALIZAR` y `BORRAR`, vie
 
 ## HTTP y CRUD
 
-Las operaciones CRUD se correlacionan bien con los métodos HTTP. 
+Las operaciones CRUD se correlacionan bien con los métodos HTTP.
 
 - `HTTP POST` - `CREAR`
 - `HTTP GET` - `LEER`
@@ -27,4 +27,3 @@ La entrega se realizará del mismo modo que las anteriores prácticas. En la pri
 ## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev
-

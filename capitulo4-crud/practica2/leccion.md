@@ -40,4 +40,3 @@ Ejecuta `bash tester.sh` para inicializar la DB.
 ## Créditos
 
 Material adaptado del curso "Learn SQL" de boot.dev
-
