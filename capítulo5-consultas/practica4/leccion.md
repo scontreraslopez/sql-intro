@@ -19,7 +19,7 @@ Esto solo devuelve una fila para cada valor único de `previous_company`.
 
 Los ejecutivos de *CashPal* quieren saber en qué países tenemos clientes. Almacenamos los datos de `country_code` como una columna en la tabla `users`.
 
-Ejecuta una consulta `DISTINCT` para obtener todos los `country_code` **únicos** de la tabla `users`. 
+Ejecuta una consulta `DISTINCT` para obtener todos los `country_code` **únicos** de la tabla `users`.
 
 Para ello:
 
