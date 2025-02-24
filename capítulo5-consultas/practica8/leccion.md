@@ -1,4 +1,4 @@
-# Like
+# LIKE
 
 A veces no tenemos el lujo de saber **exactamente** qué es lo que necesitamos consultar. ¿Alguna vez has querido buscar una canción o un video pero solo recuerdas **parte** del nombre? SQL nos proporciona una opción para cuando estamos en situaciones **LIKE** esta.
 
@@ -8,21 +8,21 @@ La palabra clave **LIKE** permite el uso de los operadores comodín **%** y **_*
 
 El operador **%** coincidirá con cero o más caracteres. Podemos usar este operador dentro de nuestra cadena de consulta para encontrar más que solo coincidencias exactas, dependiendo de dónde lo coloquemos.
 
-## Producto que empieza con “banana”:
+## Producto que empieza con “banana”
 
 ```sql
 SELECT * FROM products
 WHERE product_name LIKE 'banana%';
 ```
 
-## Producto que termina con “banana”:
+## Producto que termina con “banana”
 
 ```sql
 SELECT * FROM products
 WHERE product_name LIKE '%banana';
 ```
 
-## Producto que contiene “banana”:
+## Producto que contiene “banana”
 
 ```sql
 SELECT * FROM products
@@ -34,6 +34,12 @@ WHERE product_name LIKE '%banana%';
 Nuestro equipo de recursos humanos está tratando con un ticket de uno de nuestros usuarios, pero tienen problemas para encontrar su registro en la base de datos. Están bastante seguros de que el nombre del usuario comienza con **Al**.
 
 Escribe una consulta que devuelva todos los campos para los registros donde el **nombre** del usuario comience con **Al**.
+
+Para ello:
+
+1. Ejecuta `bash tester.sh` para inicializar la DB.
+2. Escribe la consulta, utilizando la función LIKE, que devuelva los usuarios que comienzan por **Al** de acuerdo a las instrucciones dadas.
+3. Toma una captura de pantalla con tu solución y el resultado de su ejecución. Añade la captura de pantalla a tu documento de texto bajo un nuevo epígrafe.
 
 ## Pista
 
