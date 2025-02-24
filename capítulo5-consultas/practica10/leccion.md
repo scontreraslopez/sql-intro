@@ -14,10 +14,10 @@ WHERE name LIKE 'or_%';
 ```
 
 - ¿Qué valores coinciden con el ejemplo 1?**
-  - Valores que comienzan con 'or' y tienen exactamente 3 caracteres.
-- Valores que comienzan con 'or' y tienen al menos 3 caracteres de longitud.
-- Valores que terminan con 'or' y tienen al menos 3 caracteres de longitud.
-- Valores que terminan en 'or' y tienen exactamente 3 caracteres.
+  - a) Valores que comienzan con 'or' y tienen exactamente 3 caracteres.
+  - b) Valores que comienzan con 'or' y tienen al menos 3 caracteres de longitud.
+  - c) Valores que terminan con 'or' y tienen al menos 3 caracteres de longitud.
+  - d) Valores que terminan en 'or' y tienen exactamente 3 caracteres.
 
 ## Ejemplo 2
 
@@ -26,12 +26,11 @@ SELECT * from users
 WHERE name LIKE '__ing';
 ```
 
-**¿Cuál NO coincidiría con el ejemplo 2?**
-
-- thing
-- sling
-- singing
-- bling
+- ¿Cuál NO coincidiría con el ejemplo 2?**
+  - a) thing
+  - b) sling
+  - c) singing
+  - d) bling
 
 ## Créditos
 
