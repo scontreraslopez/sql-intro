@@ -40,3 +40,7 @@ Algunos operadores de igualdad en SQL:
 - `=`: Igual a
 - `<`: Menor que
 - `>`: Mayor que
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
