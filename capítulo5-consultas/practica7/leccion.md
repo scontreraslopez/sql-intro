@@ -23,3 +23,7 @@ WHERE shipment_status = 'shipped'
 ## Tarea
 
 Queremos saber cuáles de nuestros usuarios son de América del Norte. Escribe una declaración `SELECT` que devuelva los campos `name`, `age` y `country_code` para cada usuario dentro de `US`, `CA` o `MX`.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

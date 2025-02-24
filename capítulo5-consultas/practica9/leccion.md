@@ -26,3 +26,7 @@ El código anterior coincide con productos como:
 ## Asignación
 
 ¡El departamento de RRHH ha podido reducir aún más su consulta! Quieren un informe de todos los datos de usuarios cuyos nombres comiencen con <code>Al</code> <em>y tengan exactamente 5 caracteres de longitud</em>.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

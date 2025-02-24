@@ -29,7 +29,7 @@ SELECT * FROM products
 WHERE product_name LIKE '%banana%';
 ```
 
-## Asignación
+## Tarea
 
 Nuestro equipo de recursos humanos está tratando con un ticket de uno de nuestros usuarios, pero tienen problemas para encontrar su registro en la base de datos. Están bastante seguros de que el nombre del usuario comienza con **Al**.
 
@@ -38,3 +38,7 @@ Escribe una consulta que devuelva todos los campos para los registros donde el *
 ## Pista
 
 ¡El operador **LIKE** espera una **cadena**! Asegúrate de que la declaración contra la que estás comparando esté entre comillas o SQL pensará que te refieres a una columna.
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev

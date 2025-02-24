@@ -32,3 +32,7 @@ WHERE name LIKE '__ing';
 - sling
 - singing
 - bling
+
+## Créditos
+
+Material adaptado del curso "Learn SQL" de boot.dev
