@@ -4,7 +4,7 @@ SQL es un lenguaje de programación y, como casi todos los lenguajes de programa
 
 ## Función IIF
 
-En SQLite, la función `IIF` funciona como un [ternario](https://book.pythontips.com/en/latest/ternary_operators.html). **Similar a la función =SI() que en su momento vimos trabajando con Hojas de Cálculo**. Por ejemplo,
+En SQLite, la función `IIF` funciona como un [ternario](https://book.pythontips.com/en/latest/ternary_operators.html). **Esto es similar a la función =SI() que en su momento vimos trabajando con las Hojas de Cálculo**. Por ejemplo,
 
 ```sql
 IIF(carA > carB, 'Car a es más grande', 'Car b es más grande')
@@ -20,7 +20,7 @@ SELECT quantity,
   FROM products;
 ```
 
-## Asignación
+## Tarea
 
 Necesitamos revisar los datos de transacciones de *CashPal* y determinar si alguna de las transacciones necesita ser auditada.
 
@@ -28,6 +28,10 @@ Devuelve todos los datos de la tabla `transactions` y agrega una columna extra a
 
 - Si el campo `was_successful` de una fila es `true`, el campo `audit` debe decir "No se requiere acción".
 - Si el campo `was_successful` de una fila es `false`, el campo `audit` debe decir "Realizar una auditoría".
+
+1. Ejecuta `bash tester.sh` para inicializar la DB.
+2. Escribe la consulta que devuelva todos los datos de la tabla `transactions` y agrega una columna extra al final llamada `audit` de acuerdo a las instrucciones dadas.
+3. Toma una captura de pantalla con tu solución y el resultado de su ejecución. Añade la captura de pantalla a tu documento de texto bajo un nuevo epígrafe.
 
 ## Consejo
 
