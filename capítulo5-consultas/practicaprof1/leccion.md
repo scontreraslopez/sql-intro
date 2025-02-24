@@ -13,9 +13,11 @@ Devuelve todos los datos de la tabla `users` y una columna temporal denominada `
 
 La columna `discount_eligible` debe tener un valor booleano de `true` o `false` dependiendo de si el usuario cumple alguna de las condiciones de descuento mencionadas anteriormente.
 
-La entrega de las 2 prácticas de profundización se hará en un único documento de texto. Para ello crear el documento **practica_bbddprof1_sql_apellidos_nombre**.
+Para ello:
 
-Aquí, generar un epígrafe para este ejercicio. Por último, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+1. Ejecuta `bash tester.sh` para inicializar la DB.
+2. Escribe la consulta que devuelva todos los datos de la tabla `users` y una columna adicional `discount_eligible` que sea `true` si el usuario califica para alguno de los descuentos mencionados anteriormente y `false` en caso contrario. Acuérdate de utilizar la función `IIF` para realizar esta tarea.
+3. Toma una captura de pantalla con tu solución y el resultado. Añade la captura de pantalla a un nuevo documento de texto en el que generarás un epígrafe para este ejercicio.
 
 ## Créditos
 

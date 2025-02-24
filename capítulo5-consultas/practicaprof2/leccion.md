@@ -6,7 +6,11 @@ Los usuarios han informado al equipo de soporte de CashPal que han sido contacta
 
 Escribe una consulta que devuelva el `name` y el `username` de cada usuario que tenga las palabras `cashpal` o `support` en alguna parte de su nombre de usuario y **no** sea un administrador.
 
-Generar un epígrafe para este ejercicio sobre el documento de la práctica anterior. Por último, tomad una captura de pantalla de la base de datos abierta en sqlitebrowser ejecutando la query correctamente y mostrando el output. La captura de pantalla deberá contener **TODA LA PANTALLA** incluida la hora del pc.
+Para ello:
+
+1. Ejecuta `bash tester.sh` para inicializar la DB.
+2. Escribe la consulta, utilizando la función LIKE, que devuelva los usuarios que contienen las palabras `cashpal` o `support` en su nombre de usuario y no sean administradores.
+3. Toma una captura de pantalla con tu solución y el resultado. Añade la captura de pantalla a tu documento de texto bajo un nuevo epígrafe.
 
 ¡Finalmente: Ya puedes entregar el documento de texto con las prácticas de profundización 1 y 2 completadas por aules! Felicidades por llegar hasta aquí.
 
