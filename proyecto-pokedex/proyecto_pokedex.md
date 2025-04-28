@@ -234,7 +234,7 @@ Por último, vamos a añadir una nueva tabla para los entrenadores. Esto nos per
 
 Finalmente, verifica la tabla `Trainers`: `SELECT * FROM Trainers;` y toma una captura de pantalla que añadirás a tu documento
 
-**4. Módulo 4: Evaluación y Reflexión**
+**Módulo 5: Evaluación y Reflexión**
 
 ¡Excelente trabajo, equipo! Hoy hemos creado nuestra base de datos `pokedex.db`, hemos cargado cientos de Pokémon y hasta hemos añadido una tabla para los entrenadores. ¿Qué les ha parecido? ¿Alguna dificultad con los comandos o la herramienta? ¿Qué fue lo más interesante?"
 
