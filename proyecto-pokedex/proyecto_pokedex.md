@@ -471,7 +471,7 @@ Haz una tier list basada en el poder base total promedio de cada generación. ¿
 
 Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo real (¡y en los videojuegos!), a veces surgen anomalías, datos inesperados... ¡o incluso glitches! Hoy vamos a simular la aparición del glitch más famoso de todos: **MissingNo.** en nuestra propia Pokédex.
 
-![MissingNo. Pokemon glitch from Red and Blue versions](/assets/images/missingno.jpg)
+![MissingNo](/assets/images/missingno.jpg)
 
 ¡No se asusten! Lo usaremos para aprender a manejar datos inesperados y, sobre todo, para practicar `UPDATE` y `DELETE` con la máxima precisión. Un error aquí podría... bueno, digamos que no queremos corromper nuestra Pokédex."
 
@@ -503,7 +503,7 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 
 - **Paso 2: Conteniendo el Glitch - `UPDATE` para Renombrar**
 
-    **Profesor:** "Tener a 'MissingNo.' tal cual en la base de datos es inquietante. Podría empezar a causar problemas. Vamos a intentar 'contenerlo' cambiándole el nombre a algo menos amenazante, como 'GlitchedEntity'. ¡Pero cuidado! Debemos asegurarnos de cambiar SOLO el nombre de la entrada con `pokedexID = 0`. ¡Usen `UPDATE` con un `WHERE` preciso!"
+    "Tener a 'MissingNo.' tal cual en la base de datos es inquietante. Podría empezar a causar problemas. Vamos a intentar 'contenerlo' cambiándole el nombre a algo menos amenazante, como 'GlitchedEntity'. ¡Pero cuidado! Debemos asegurarnos de cambiar SOLO el nombre de la entrada con `pokedexID = 0`. ¡Usen `UPDATE` con un `WHERE` preciso!
 
     > [!TIP]
     > Puedes hacer una copia de la base de datos antes de modificarla, por si las moscas.
@@ -515,7 +515,7 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
         -- Debería mostrar 'GlitchedEntity'
 
         ```
-    **Profesor:** "Bien, parece que hemos 'neutralizado' su nombre. Pero la entidad sigue ahí... y su naturaleza es inestable."
+    Bien, parece que hemos 'neutralizado' su nombre. Pero la entidad sigue ahí... y su naturaleza es inestable.
 
 * **Paso 3: La Purga - `DELETE` Antes de la Corrupción Total**
 
@@ -524,21 +524,16 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
     **Profesor:** "**¡¡TRIPLE COMPROBACIÓN DEL `WHERE`!!** Asegúrense de que van a borrar SOLO la entidad con `pokedexID = 0`."
 
     * ¡Ejecuten la eliminación con máxima precaución!
-        ```sql
-        -- Eliminando la entidad glitch (¡CON MÁXIMO CUIDADO!)
-        DELETE FROM pokemon 
-        WHERE pokedexID = 0; -- ¡¡ASEGÚRENSE DE QUE ESTE WHERE ESTÁ AHÍ!!
-        ```
+
     * **Verificación Final:** "Comprueben si la entidad glitch ha sido purgada definitivamente. Busquen de nuevo por `pokedexID = 0`."
         ```sql
         SELECT * FROM pokemon WHERE pokedexID = 0; 
         -- ¡Debería devolver 0 filas! ¡Hemos eliminado el glitch con éxito!
         ```
-    **Profesor:** "¡Felicidades! Han manejado una anomalía peligrosa usando `INSERT`, `UPDATE` y `DELETE` con la precisión necesaria. Han visto lo fácil que sería causar un desastre olvidando o escribiendo mal la cláusula `WHERE`. ¡Que esta lección sobre MissingNo. les sirva como recordatorio constante de la importancia de la precisión en SQL!"
+    
 
----
+"¡Felicidades! Han manejado una anomalía peligrosa usando `INSERT`, `UPDATE` y `DELETE` con la precisión necesaria. Han visto lo fácil que sería causar un desastre olvidando o escribiendo mal la cláusula `WHERE`. ¡Que esta lección sobre MissingNo. les sirva como recordatorio constante de la importancia de la precisión en SQL!"
 
-Esta versión guía a los alumnos a través de la creación, modificación y eliminación segura de una entidad "peligrosa", haciendo la lección sobre `UPDATE` y `DELETE` mucho más práctica y memorable. ¡Seguro que les gusta!
 ---
 
 ### Profundización I: Agrupando Datos con `GROUP BY`
