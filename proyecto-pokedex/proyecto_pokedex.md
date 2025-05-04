@@ -450,7 +450,7 @@ EL profesor Oak se ha currado una función de puntuación a tal efecto `score = 
 
 #### Instrucción Práctica 5: Análisis Estadístico de la Liga - Agregación con `WHERE`
 
-**Profesor:** "Vamos a profundizar con estadísticas globales usando funciones como `COUNT`, `AVG`, `MAX`, `MIN`. A diferencia de agrupar (que veremos opcionalmente más abajo), aquí aplicaremos estas funciones al conjunto de datos filtrado por `WHERE` para obtener valores específicos."
+Vamos a profundizar con estadísticas globales usando funciones como `COUNT`, `AVG`, `MAX`, `MIN`. A diferencia de agrupar (que veremos opcionalmente más abajo), aquí aplicaremos estas funciones al conjunto de datos filtrado por `WHERE` para obtener valores específicos.
 
 - **Contando por Tipo Específico:** Queremos saber cuántos Pokémon de tipo 'Fuego' (`fire`) hay en nuestra Pokédex para evaluar su prevalencia. Utiliza la clausula `WHERE` para filtrar (recuerda que hay dos tipos) y `COUNT` para el conteo. Compáralo con su rival más directo, el tipo 'Agua' (`water`).
 
@@ -477,7 +477,7 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 
 - **Paso 1: La Invocación - `INSERT` de MissingNo.**
 
-    **Profesor:** "Vamos a introducir manualmente a MissingNo. en nuestra tabla `pokemon`. Usaremos el `pokedexID = 0`, un número que a menudo se asocia con él en las leyendas urbanas de los juegos.
+    Vamos a introducir manualmente a MissingNo. en nuestra tabla `pokemon`. Usaremos el `pokedexID = 0`, un número que a menudo se asocia con él en las leyendas urbanas de los juegos.
 
     Copien y ejecuten esta sentencia `INSERT`. ¡Están a punto de añadir un glitch a su base de datos!"
 
@@ -519,9 +519,9 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 
 * **Paso 3: La Purga - `DELETE` Antes de la Corrupción Total**
 
-    **Profesor:** "No podemos arriesgarnos. La presencia de esta entidad glitch, aunque renombrada, es un peligro para la integridad de nuestra Pokédex. ¡Debemos eliminarla antes de que se extienda! Usaremos `DELETE`, pero esta es la operación más peligrosa. Recuerden: **¡¡UN `DELETE` SIN `WHERE` BORRA TODA LA TABLA!!** Sería la corrupción definitiva."
+    No podemos arriesgarnos. La presencia de esta entidad glitch, aunque renombrada, es un peligro para la integridad de nuestra Pokédex. ¡Debemos eliminarla antes de que se extienda! Usaremos `DELETE`, pero esta es la operación más peligrosa. Recuerden: **¡¡UN `DELETE` SIN `WHERE` BORRA TODA LA TABLA!!** Sería la corrupción definitiva.
 
-    **Profesor:** "**¡¡TRIPLE COMPROBACIÓN DEL `WHERE`!!** Asegúrense de que van a borrar SOLO la entidad con `pokedexID = 0`."
+    **¡¡TRIPLE COMPROBACIÓN DEL `WHERE`!!** Asegúrense de que van a borrar SOLO la entidad con `pokedexID = 0`."
 
     * ¡Ejecuten la eliminación con máxima precaución!
 
@@ -538,7 +538,7 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 
 ### Profundización I: Agrupando Datos con `GROUP BY`
 
-**Profesor:** "¡Atención, entrenadores avanzados! Hemos visto cómo calcular totales o promedios sobre conjuntos filtrados con `WHERE`. Pero, ¿y si quisiéramos ver esas estadísticas *para cada categoría* diferente dentro de nuestros datos, todo en una sola consulta? Por ejemplo, ¿el recuento de Pokémon para *cada* tipo? Para eso existe `GROUP BY`.
+¡Atención, entrenadores avanzados! Hemos visto cómo calcular totales o promedios sobre conjuntos filtrados con `WHERE`. Pero, ¿y si quisiéramos ver esas estadísticas *para cada categoría* diferente dentro de nuestros datos, todo en una sola consulta? Por ejemplo, ¿el recuento de Pokémon para *cada* tipo? Para eso existe `GROUP BY`.
 
 **¿Qué hace `GROUP BY`?**
 La cláusula `GROUP BY` agrupa las filas que tienen el mismo valor en una o más columnas (por ejemplo, todos los 'fire', todos los 'water', etc.). Luego, las funciones de agregación (`COUNT`, `AVG`, `SUM`, `MAX`, `MIN`) que usemos en el `SELECT` se aplicarán a cada uno de estos grupos por separado.
