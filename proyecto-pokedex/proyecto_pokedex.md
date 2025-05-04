@@ -467,7 +467,7 @@ Haz una tier list basada en el poder base total promedio de cada generación. ¿
 
 Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo real (¡y en los videojuegos!), a veces surgen anomalías, datos inesperados... ¡o incluso glitches! Hoy vamos a simular la aparición del glitch más famoso de todos: **MissingNo.** en nuestra propia Pokédex.
 
-![MissingNo. Pokemon glitch from Red and Blue versions](assets/images/missingno.jpg)
+![MissingNo. Pokemon glitch from Red and Blue versions](/assets/images/missingno.jpg)
 
 ¡No se asusten! Lo usaremos para aprender a manejar datos inesperados y, sobre todo, para practicar `UPDATE` y `DELETE` con la máxima precisión. Un error aquí podría... bueno, digamos que no queremos corromper nuestra Pokédex."
 
