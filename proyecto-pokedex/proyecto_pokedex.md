@@ -9,14 +9,16 @@
     - [Módulo 2: Refresco Teórico Rápido y Calentamiento](#módulo-2-refresco-teórico-rápido-y-calentamiento)
     - [Módulo 3: ¡Manos a la Obra! Creando la Base de Datos y la Tabla Pokémon](#módulo-3-manos-a-la-obra-creando-la-base-de-datos-y-la-tabla-pokémon)
     - [Módulo 4: Poblando la Pokédex](#módulo-4-poblando-la-pokédex)
-    - [Módulo 5: Evaluación y Reflexión](#módulo-5-reflexión)
+    - [Módulo 5: Reflexión](#módulo-5-reflexión)
   - [Sesión 2: ¡Dominando la Pokédex! - Consultas Avanzadas y Mantenimiento](#sesión-2-dominando-la-pokédex---consultas-avanzadas-y-mantenimiento)
     - [Módulo 1: Recapitulación y Objetivos](#módulo-1-recapitulación-y-objetivos)
     - [Módulo 2: Refresco Teórico](#módulo-2-refresco-teórico)
     - [Módulo 3: Renombrando Tablas y Columnas](#módulo-3-renombrando-tablas-y-columnas)
     - [Módulo 4: ¡Preparación para la Liga de Datos Pokémon!](#módulo-4-preparación-para-la-liga-de-datos-pokémon)
+    - [Módulo 5: Conociendo a MissingNo. - Manejo de Datos Inesperados](#módulo-5-conociendo-a-missingno---manejo-de-datos-inesperados)
+    - [Profundización I: Agrupando Datos con GROUP BY](#profundización-i-agrupando-datos-con-group-by)
+    - [Profundización II - Introducción a JOIN](#profundización-ii---introducción-a-join)
 - [Conclusión y Reflexión Final](#conclusión-y-reflexión-final)
-- [Notas personales acerca de la Evaluación y Adaptabilidad](#notas-personales-acerca-de-la-evaluación-y-adaptabilidad)
 
 ## Descripción del Proyecto
 
@@ -463,6 +465,8 @@ Haz una tier list basada en el poder base total promedio de cada generación. ¿
 
 ---
 
+### Módulo 5: Conociendo a MissingNo. - Manejo de Datos Inesperados
+
 #### Instrucción Práctica 6: ¡Alerta de Glitch! Gestionando a MissingNo. (`INSERT`, `UPDATE`, `DELETE`)
 
 Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo real (¡y en los videojuegos!), a veces surgen anomalías, datos inesperados... ¡o incluso glitches! Hoy vamos a simular la aparición del glitch más famoso de todos: **MissingNo.** en nuestra propia Pokédex.
@@ -537,7 +541,7 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 Esta versión guía a los alumnos a través de la creación, modificación y eliminación segura de una entidad "peligrosa", haciendo la lección sobre `UPDATE` y `DELETE` mucho más práctica y memorable. ¡Seguro que les gusta!
 ---
 
-#### Profundización I: Agrupando Datos con `GROUP BY`
+### Profundización I: Agrupando Datos con `GROUP BY`
 
 **Profesor:** "¡Atención, entrenadores avanzados! Hemos visto cómo calcular totales o promedios sobre conjuntos filtrados con `WHERE`. Pero, ¿y si quisiéramos ver esas estadísticas *para cada categoría* diferente dentro de nuestros datos, todo en una sola consulta? Por ejemplo, ¿el recuento de Pokémon para *cada* tipo? Para eso existe `GROUP BY`.
 
@@ -582,7 +586,7 @@ GROUP BY is_legendary;
 
 ---
 
-#### (Profundización II - Introducción a JOIN)
+### (Profundización II - Introducción a JOIN)
 
 "Hemos analizado Pokémon y tenemos entrenadores en la tabla `trainer` (¡recuerden que la renombramos!). Pero, ¿cómo sabemos qué Pokémon pertenece a qué entrenador? Necesitaríamos una tabla intermedia, una 'tabla de capturas', que relacione `trainerID` con `pokedexID`.
 
