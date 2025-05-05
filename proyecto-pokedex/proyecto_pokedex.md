@@ -266,7 +266,7 @@ Para la próxima sesión, piensen: ¿Qué preguntas interesantes podríamos hace
 
 #### Módulo 1: Recapitulación y Objetivos
 
-"¡Bienvenidos de nuevo, investigadores Pokémon! En la sesión anterior, sentamos las bases de nuestra Pokédex digital. Tenemos la tabla `pokemon` llena de datos y nuestra tabla `Trainers`. Hoy nos sumergiremos más profundo: aprenderemos a hacer preguntas más complejas a nuestra base de datos, a ordenar los resultados como queramos y a mantener nuestra información actualizada. ¡Prepárense para dominar el arte de la consulta SQL!"
+¡Bienvenidos de nuevo, investigadores Pokémon! En la sesión anterior, sentamos las bases de nuestra Pokédex digital. Tenemos la tabla `pokemon` llena de datos y nuestra tabla `Trainers`. Hoy nos sumergiremos más profundo: aprenderemos a hacer preguntas más complejas a nuestra base de datos, a ordenar los resultados como queramos y a mantener nuestra información actualizada. ¡Prepárense para dominar el arte de la consulta SQL!
 
 - **Objetivos de la Sesión 2:**
 
@@ -360,7 +360,7 @@ Recuerda el `WHERE`, no te conviertas en un meme informático.
 
 #### Módulo 3: Renombrando Tablas y Columnas**
 
-¡Vamos a poner a prueba esos comandos! Abrid su `pokedex.db` y a consultar.
+¡Vamos a poner a prueba esos comandos! Abrid vuestra `pokedex.db` y a consultar.
 
 Pero antes una cuestión que habitualmente se pasa por alto: **el manual de estilo**. Es importante que sigamos un estilo de escritura claro y consistente. Además de que da mala imagen no hacerlo, es una fuente **muy común** de errores en el código. ¡Yo he estado ahí y lo he visto ocurrir, creedme!
 
@@ -374,13 +374,15 @@ Esto afectaría al nombre de la tabla y a los nombres de las columnas. Nosotros 
 
 ##### Manual de Estilo: Singular vs Plural
 
-Este es otro punto de debate habitual. Todo tiene sus ventajas e inconvenientes, pero intentaremos ceñirnos al estilo que propone Microsoft.
+Este es otro punto de debate habitual. ¿Debemos utilizar singular (por ejemplo `Factura`) o plural (`Facturas`) para el nombre de nuestras tablas y columnas? Todo tiene sus ventajas e inconvenientes, pero intentaremos ceñirnos al estilo que propone Microsoft.
 
 Microsoft en su base de datos ilustrativa **AdventureWorks** utiliza el estilo **singular** para los nombres de las tablas. Por ejemplo, `Product` en lugar de `Products`. Esto se debe a que cada fila de la tabla representa un único producto, y el nombre de la tabla refleja eso.
 
 Aquí observamos que la tabla `Trainers` está en plural, mientras que la tabla `pokemon` está en singular. Esto es un error de estilo, ya que no se ha seguido una convención única. Lo recomendable es ceñirnos **a un único estilo**, por lo que pasaremos a renombrar la tabla `Trainers` a `trainer`.
 
 **Instrucción Práctica 1 (Renombrando la Tabla):**
+
+**Renombra la tabla `Trainers` a `trainer`.**
 
 ```sql
 ALTER TABLE NombreViejos RENAME TO nombreNuevo;
@@ -393,6 +395,8 @@ La siguiente petición que nos llega es renombrar la columna `pokedex_number` de
 
 **Instrucción Práctica 2 (Renombrando Columnas):**
 
+**Renombra la columna `pokedex_number` de la tabla `pokemon` a `pokedexID`.**
+
 ```sql
 ALTER TABLE tabla_en_cuestion RENAME COLUMN nombre_viejo TO nombre_nuevo;
 ```
@@ -404,7 +408,7 @@ ALTER TABLE tabla_en_cuestion RENAME COLUMN nombre_viejo TO nombre_nuevo;
 
 ### Módulo 4: ¡Preparación para la Liga de Datos Pokémon!
 
-¡Entrenadores de datos! Ya tenemos nuestra Pokédex operativa. Ahora, vamos a usarla para prepararnos para el desafío definitivo: ¡La Liga de Datos Pokémon! Para ganar, no basta con capturarlos a todos, ¡hay que entenderlos! Usaremos SQL para analizar fortalezas, debilidades y estadísticas clave. ¡Que comience el análisis estratégico!"
+¡Entrenadores de datos! Ya tenemos nuestra Pokédex operativa. Ahora, vamos a usarla para prepararnos para el desafío definitivo: ¡La Liga de Datos Pokémon! Para ganar, no basta con capturarlos a todos, ¡hay que entenderlos! Usaremos SQL para analizar fortalezas, debilidades y estadísticas clave. ¡Que comience el análisis estratégico!
 
 >[!IMPORTANT]
 > Recuerda continuar tomando capturas de pantallas de las consultas y sus resultados. ¡Son parte de tu entrega final!
@@ -440,11 +444,13 @@ Busca todos los Pokémon cuyo nombre contenga `'king'` o `'queen'`.
 
 Una vez identificados los candidatos, hay que clasificarlos. `ORDER BY` nos ayuda a ver quién destaca en cada categoría. `LIMIT` nos permite quedarnos con los mejores.
 
-- **Ranking de Velocidad:** ¡La velocidad es clave! Lista todos los Pokémon ordenados por su estadística de Velocidad (`speed`) de mayor a menor.
+- **Escenario 5: Ranking de Velocidad:** ¡La velocidad es clave! Lista todos los Pokémon ordenados por su estadística de Velocidad (`speed`) de mayor a menor.
 
-- **Los tanques de los humildes en Kanto:** A Kanto también ha llegado la crisis, y apenas podemos permitirnos una miserable Poké Ball. Sin embargo tenemos que montar un equipo que tanquee como ninguno y sea fácil de capturar.
+- **Escenario 6: Los tanques de los humildes en Kanto:** A Kanto también ha llegado la crisis, y apenas podemos permitirnos una miserable Poké Ball. Sin embargo tenemos que montar un equipo que tanquee como ninguno y sea fácil de capturar.
 
-EL profesor Oak se ha currado una función de puntuación a tal efecto `score = hp * defense * capture_rate`. Pasa un poco de la `sp_def` pero bueno, no está mal. Encuentra el top 10 Pokémon de Kanto con la puntuación más alta. Recuerda que los Pokémon de Kanto son aquellos cuya `generation` es 1. ¡No olvides usar `ORDER BY` y `LIMIT`!
+EL profesor Oak se ha currado una función de puntuación a tal efecto `score = hp * defense * capture_rate`. No tiene en cuenta la `sp_def` pero bueno, no está mal como primera aproximación.
+
+**Encuentra el top 10 Pokémon de Kanto con la puntuación `score` más alta**. Recuerda que los Pokémon de Kanto son aquellos cuya `generation` es 1. ¡No olvides usar `ORDER BY` y `LIMIT`!
 
 ---
 
@@ -452,11 +458,11 @@ EL profesor Oak se ha currado una función de puntuación a tal efecto `score = 
 
 Vamos a profundizar con estadísticas globales usando funciones como `COUNT`, `AVG`, `MAX`, `MIN`. A diferencia de agrupar (que veremos opcionalmente más abajo), aquí aplicaremos estas funciones al conjunto de datos filtrado por `WHERE` para obtener valores específicos.
 
-- **Contando por Tipo Específico:** Queremos saber cuántos Pokémon de tipo 'Fuego' (`fire`) hay en nuestra Pokédex para evaluar su prevalencia. Utiliza la clausula `WHERE` para filtrar (recuerda que hay dos tipos) y `COUNT` para el conteo. Compáralo con su rival más directo, el tipo 'Agua' (`water`).
+- **Escenario 7: Contando por Tipo Específico:** Queremos saber cuántos Pokémon de tipo 'Fuego' (`fire`) hay en nuestra Pokédex para evaluar su prevalencia. Utiliza la clausula `WHERE` para filtrar (recuerda que hay dos tipos) y `COUNT` para el conteo. Compáralo con su rival más directo, el tipo 'Agua' (`water`).
 
-- **Tier list de generaciones (Filtrado):** Calculemos el poder base total (`base_total`) **promedio** (AVG) de cada generación.
+- **Escenario 8: Tier list de generaciones (Filtrado):** Calculemos el poder base total (`base_total`) **promedio** (AVG) de cada generación.
 
-Como no hemos visto `GROUP BY` lo haremos generación a generación, filtrando por `generation` en el ``WHERE` y usando `AVG(base_total)` para cada una.
+Como no hemos visto `GROUP BY` lo haremos generación a generación, filtrando por `generation` en el `WHERE` y usando `AVG(base_total)` para cada una.
 
 Haz una tier list basada en el poder base total promedio de cada generación. ¿Cuál es la generación más fuerte? ¿Y la más débil?
 
@@ -503,36 +509,36 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 
 - **Paso 2: Conteniendo el Glitch - `UPDATE` para Renombrar**
 
-    "Tener a 'MissingNo.' tal cual en la base de datos es inquietante. Podría empezar a causar problemas. Vamos a intentar 'contenerlo' cambiándole el nombre a algo menos amenazante, como 'GlitchedEntity'. ¡Pero cuidado! Debemos asegurarnos de cambiar SOLO el nombre de la entrada con `pokedexID = 0`. ¡Usen `UPDATE` con un `WHERE` preciso!
+    Tener a 'MissingNo.' tal cual en la base de datos es inquietante. Podría empezar a causar problemas. Vamos a intentar 'contenerlo' cambiándole el nombre a algo menos amenazante, como 'GlitchedEntity'. ¡Pero cuidado! Debemos asegurarnos de cambiar SOLO el nombre de la entrada con `pokedexID = 0`. ¡Usen `UPDATE` con un `WHERE` preciso!
 
     > [!TIP]
     > Puedes hacer una copia de la base de datos antes de modificarla, por si las moscas.
 
-    
     **Verificación:** "Comprueben si el cambio de nombre ha funcionado. Vuelvan a buscar por `pokedexID = 0`."
-        ```sql
-        SELECT name FROM pokemon WHERE pokedexID = 0; 
-        -- Debería mostrar 'GlitchedEntity'
 
-        ```
+  ```sql
+    SELECT name FROM pokemon WHERE pokedexID = 0; 
+    -- Debería mostrar 'GlitchedEntity'
+  ```
+
     Bien, parece que hemos 'neutralizado' su nombre. Pero la entidad sigue ahí... y su naturaleza es inestable.
 
-* **Paso 3: La Purga - `DELETE` Antes de la Corrupción Total**
+- **Paso 3: La Purga - `DELETE` Antes de la Corrupción Total**
 
     No podemos arriesgarnos. La presencia de esta entidad glitch, aunque renombrada, es un peligro para la integridad de nuestra Pokédex. ¡Debemos eliminarla antes de que se extienda! Usaremos `DELETE`, pero esta es la operación más peligrosa. Recuerden: **¡¡UN `DELETE` SIN `WHERE` BORRA TODA LA TABLA!!** Sería la corrupción definitiva.
 
     **¡¡TRIPLE COMPROBACIÓN DEL `WHERE`!!** Asegúrense de que van a borrar SOLO la entidad con `pokedexID = 0`."
 
-    * ¡Ejecuten la eliminación con máxima precaución!
+    ¡Ejecutad la eliminación con máxima precaución!
 
-    * **Verificación Final:** "Comprueben si la entidad glitch ha sido purgada definitivamente. Busquen de nuevo por `pokedexID = 0`."
-        ```sql
-        SELECT * FROM pokemon WHERE pokedexID = 0; 
-        -- ¡Debería devolver 0 filas! ¡Hemos eliminado el glitch con éxito!
-        ```
-    
+    **Verificación Final:** "Comprueben si la entidad glitch ha sido purgada definitivamente. Busquen de nuevo por `pokedexID = 0`."
 
-"¡Felicidades! Han manejado una anomalía peligrosa usando `INSERT`, `UPDATE` y `DELETE` con la precisión necesaria. Han visto lo fácil que sería causar un desastre olvidando o escribiendo mal la cláusula `WHERE`. ¡Que esta lección sobre MissingNo. les sirva como recordatorio constante de la importancia de la precisión en SQL!"
+    ```sql
+      SELECT * FROM pokemon WHERE pokedexID = 0; 
+      -- ¡Debería devolver 0 filas! ¡Hemos eliminado el glitch con éxito!
+    ```
+
+¡Felicidades! Habéis manejado una anomalía peligrosa usando `INSERT`, `UPDATE` y `DELETE` con la precisión necesaria. También habéis visto lo fácil que sería causar un desastre olvidando o escribiendo mal la cláusula `WHERE`. ¡Que esta lección sobre MissingNo. os sirva como recordatorio constante de la importancia de la precisión en SQL!
 
 ---
 
@@ -544,6 +550,7 @@ Entrenadores, hasta ahora hemos trabajado con datos 'limpios'. Pero en el mundo 
 La cláusula `GROUP BY` agrupa las filas que tienen el mismo valor en una o más columnas (por ejemplo, todos los 'fire', todos los 'water', etc.). Luego, las funciones de agregación (`COUNT`, `AVG`, `SUM`, `MAX`, `MIN`) que usemos en el `SELECT` se aplicarán a cada uno de estos grupos por separado.
 
 **Sintaxis básica:**
+
 ```sql
 SELECT columna_agrupadora, FUNCION_AGREGACION(columna_calculo)
 FROM nombre_tabla
@@ -554,6 +561,7 @@ ORDER BY [orden si aplica después de agrupar];
 
 **Ejemplo 1: Contar Pokémon por cada Tipo Primario (Dominancia de Tipos)**
 En lugar de contar solo los de tipo 'Fuego' o 'Agua' uno por uno con `WHERE`, `GROUP BY type1` nos permite contar cuántos hay *de cada* tipo primario existente en una sola consulta:
+
 ```sql
 -- Contar cuántos Pokémon hay por CADA tipo primario
 SELECT type1, COUNT(*) as total_pokemon 
@@ -565,6 +573,7 @@ ORDER BY total_pokemon DESC;
 
 **Ejemplo 2: Comparar Promedios por Categoría (Poder Legendario vs. Común)**
 En vez de hacer dos consultas separadas con `WHERE` (una para legendarios y otra para no legendarios), podemos agrupar por la columna `is_legendary` y calcular el promedio de `base_total` para cada grupo (0 y 1) simultáneamente:
+
 ```sql
 -- Promedio de base_total agrupado por si es legendario o no
 SELECT 
@@ -577,6 +586,7 @@ FROM pokemon
 GROUP BY is_legendary;
 -- ¡Obtenemos ambos promedios en una sola consulta, perfecto para comparar!
 ```
+
 `GROUP BY` es una herramienta muy potente para resumir y analizar datos por categorías. ¡Si te interesa, investiga más sobre ella y prueba a agrupar por otras columnas como `generation`!"
 
 ---
@@ -593,7 +603,7 @@ Hoy solo lo mencionamos conceptualmente, pero es fundamental para preguntas como
 
 ## Conclusión y Reflexión Final
 
-- **Reflexión Final:** "¡Felicidades, habéis superado la Liga de Datos Pokémon! Habéis utilizado SQL para explorar, analizar, ordenar y hasta modificar datos como verdaderos expertos.
+- **Reflexión Final:** ¡Felicidades, habéis superado la Liga de Datos Pokémon! Habéis utilizado SQL para explorar, analizar, ordenar y hasta modificar datos como verdaderos expertos.
 
 ¿Qué estrategia de consulta os resultó más útil o interesante? ¿Dónde creéis que podríais aplicar estas habilidades de consulta y análisis de datos fuera de este proyecto? SQL es su navaja suiza para interactuar con el vasto mundo de la información estructurada. ¡Seguid practicando y explorando, que el viaje del maestro de datos acaba de empezar!"
 
